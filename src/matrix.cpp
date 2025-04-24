@@ -75,7 +75,7 @@ Matrix& Matrix::operator * (Matrix &m){
 	}
 	Matrix *m_aux = new Matrix(this->n_row, m.n_column);
 	for(int i=1;i<=this->n_row;i++){
-		for(int j=1;j<=this->n_column;j++){
+		for(int j=1;j<=m.n_column;j++){
 			(*m_aux)(i,j)=0;
 			for(int k=1;k<=this->n_column;k++){
 				(*m_aux)(i,j)+=(*this)(i,k)*m(k,j);
@@ -84,6 +84,16 @@ Matrix& Matrix::operator * (Matrix &m){
 	}
 	return *m_aux;
 }
+
+Matrix& Matrix::operator / (Matrix &m){
+	if (this->n_column != m.n_row) {
+		cout << "Matrix div: tamaños incompatibles para división\n";
+        exit(EXIT_FAILURE);
+	}
+	Matrix invertida=inv(m);
+	return *this * invertida;
+}
+
 
 ostream& operator << (ostream &o, Matrix &m) {
 	for (int i = 1; i <= m.n_row; i++) {
@@ -105,4 +115,56 @@ Matrix& zeros(const int n_row, const int n_column) {
 	}
 	
 	return (*m_aux);
+}
+
+Matrix& eye(int n) {
+	if (n<=0) {
+		cout << "Matrix eye: error debe ser de al menos tamaño 1\n";
+        exit(EXIT_FAILURE);
+	}
+	
+	Matrix *m_aux = new Matrix(n, n);
+	
+    for(int i = 1; i <= n; i++) {
+        for(int j = 1; j <= n; j++) {
+			if(i==j){
+				(*m_aux)(i,j) = 1;
+			}else{
+				(*m_aux)(i,j) =0;
+			}
+		}
+	}
+	
+	return *m_aux;
+}
+
+Matrix& inv(Matrix &m) {
+	if (m.n_column!=m.n_row) {
+		cout << "Matrix inv: error debe ser cuadrada\n";
+        exit(EXIT_FAILURE);
+	}
+	Matrix *inv=new Matrix(m);
+	Matrix *aux=&eye(m.n_column);
+	for(int i=1;i<=m.n_column;i++){
+		double pivot=(*inv)(i,i);
+		if(fabs(pivot)<1e-10){
+			std::cout << "Matrix inv: matriz no invertible\n";
+            exit(EXIT_FAILURE);
+		}
+		for(int j=1;j<=m.n_row;j++){
+			(*inv)(i,j)/=pivot;
+			(*aux)(i,j)/=pivot;
+		}
+		for(int k=1;k<=m.n_row;k++){
+			if(k!=i){
+				double f=(*inv)(k,i);
+				for(int j=1;j<=m.n_row;j++){
+					(*inv)(k,j)-=(*inv)(i,j)*f;
+					(*aux)(k,j)-=(*aux)(i,j)*f;
+				}
+			}
+		}
+	}
+	return *aux;
+	
 }

@@ -117,14 +117,62 @@ int m_mult_01() {
     
     return 0;
 }
+int m_div_01() {
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 0; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 0; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+	Matrix B(3, 3);
+	B(1,1) = 1; B(1,2) = 0; B(1,3) = 0;  
+	B(2,1) = 0; B(2,2) = 1; B(2,3) = 0; 
+	B(3,1) = 0; B(3,2) = 0; B(3,3) = 1; 
+ 
+	Matrix res(3,3);
+	res(1,1) = 1; res(1,2) = 0; res(1,3) = 2;  
+	res(2,1) = 0; res(2,2) = 1; res(2,3) = 0; 
+	res(3,1) = 0; res(3,2) = 0; res(3,3) = 1; 
+    _assert(m_equals(A/B, res, 1e-10));
+    
+    return 0;
+}
 
+int m_eye_01() {
+	
+	Matrix A(4, 4);
+	A(1,1) = 1; A(1,2) = 0; A(1,3) = 0; A(1,4) = 0; 
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 0; A(2,4) = 0; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; A(3,4) = 0; 
+	A(4,1) = 0; A(4,2) = 0; A(4,3) = 0; A(4,4) = 1; 
+	
+    Matrix res=eye(4);
+    _assert(m_equals(A, res, 1e-10));
+    
+    return 0;
+}
+int m_inv_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 0; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 0; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+ 
+	Matrix res(3,3);
+	res(1,1) = 1; res(1,2) = 0; res(1,3) = -2;  
+	res(2,1) = 0; res(2,2) = 1; res(2,3) = 0; 
+	res(3,1) = 0; res(3,2) = 0; res(3,3) = 1; 
+    _assert(m_equals(inv(A), res, 1e-10));
+    
+    return 0;
+}
 int all_tests()
 {
     _verify(m_sum_01);
     _verify(m_sub_01);
     _verify(m_zeros_01);
 	_verify(m_mult_01);
-
+	_verify(m_div_01);
+	_verify(m_eye_01);
+	_verify(m_inv_01);
     return 0;
 }
 
