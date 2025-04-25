@@ -164,6 +164,253 @@ int m_inv_01() {
     
     return 0;
 }
+int m_eq_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 0; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 0; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+	Matrix res=A;
+    _assert(m_equals(A, res, 1e-10));
+    
+    return 0;
+}
+int m_trans_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 3; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+	Matrix res=transpose(A);
+	Matrix B(3, 3);
+	B(1,1) = 1; B(1,2) = 0; B(1,3) = 0;  
+	B(2,1) = 3; B(2,2) = 1; B(2,3) = 0; 
+	B(3,1) = 2; B(3,2) = 3; B(3,3) = 1; 
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_nsum_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 3; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+	double n=3;
+	Matrix res=A+3;
+	Matrix B(3, 3);
+	B(1,1) = 4; B(1,2) = 6; B(1,3) = 5;  
+	B(2,1) = 3; B(2,2) = 4; B(2,3) = 6; 
+	B(3,1) = 3; B(3,2) = 3; B(3,3) = 4; 
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_nsub_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 3; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+	double n=3;
+	Matrix res=A-3;
+	Matrix B(3, 3);
+	B(1,1) = -2; B(1,2) = 0; B(1,3) = -1;  
+	B(2,1) = -3; B(2,2) = -2; B(2,3) = 0; 
+	B(3,1) = -3; B(3,2) = -3; B(3,3) = -2; 
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_nmul_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 1; A(1,2) = 3; A(1,3) = 2;  
+	A(2,1) = 0; A(2,2) = 1; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 1; 
+	double n=3;
+	Matrix res=A*3;
+	Matrix B(3, 3);
+	B(1,1) = 3; B(1,2) = 9; B(1,3) = 6;  
+	B(2,1) = 0; B(2,2) = 3; B(2,3) = 9; 
+	B(3,1) = 0; B(3,2) = 0; B(3,3) = 3; 
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_ndiv_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 6; A(1,2) = 3; A(1,3) = 9;  
+	A(2,1) = 0; A(2,2) = 6; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 6; 
+	double n=3;
+	Matrix res=A/n;
+	Matrix B(3, 3);
+	B(1,1) = 2; B(1,2) = 1; B(1,3) = 3;  
+	B(2,1) = 0; B(2,2) = 2; B(2,3) = 1; 
+	B(3,1) = 0; B(3,2) = 0; B(3,3) = 2; 
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_extn_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 6; A(1,2) = 3; A(1,3) = 9;  
+	A(2,1) = 0; A(2,2) = 6; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 6; 
+	double n=A(6);
+	double res=3;
+    _assert(m_equals(n, res, 1e-10));
+    
+    return 0;
+}
+int m_nzeros_01() {
+    int c = 4;
+	
+	Matrix A(c);
+	A(1) = 0; A(2) = 0; A(3) = 0; A(4) = 0;
+	
+	Matrix B = zeros(4);
+	
+    _assert(m_equals(A, B, 1e-10));
+    
+    return 0;
+}
+int m_norm_01() {
+    int c = 4;
+	
+	Matrix A(c);
+	A(1) = 1; A(2) = 2; A(3) = 3; A(4) = 4;
+	
+	double res=norm(A);
+	double B = sqrt(30);
+    
+    _assert(m_equals(res, B, 1e-10));
+    
+    return 0;
+}
+int m_dot_01() {
+    int c = 4;
+	
+	Matrix A(c);
+	A(1) = 1; A(2) = 2; A(3) = 3; A(4) = 4;
+	Matrix B(c);
+	B(1) = 4; B(2) = 3; B(3) = 2; B(4) = 1;
+	
+	double res=20;
+	double aux = dot(A,B);
+    
+    _assert(m_equals(res, aux, 1e-10));
+    
+    return 0;
+}
+int m_cross_01() {
+    int c = 3;
+	
+	Matrix A(c);
+	A(1) = 1; A(2) = 2; A(3) = 3; 
+	Matrix B(c);
+	B(1) = 3; B(2) = 2; B(3) = 1; 
+	
+	Matrix C(c);
+	C(1) = -4; C(2) = 8; C(3) = -4; 
+	Matrix res = cross(A,B);
+    
+    _assert(m_equals(res, C, 1e-10));
+    
+    return 0;
+}
+int m_extract_01() {
+	
+	Matrix A(6);
+	A(1) = 1; A(2) = 2; A(3) = 3; A(4) = 1; A(5) = 2; A(6) = 3; 
+	Matrix B=extract_vector(A,2,4);
+	
+	Matrix C(3);
+	C(1) = 2; C(2) = 3; C(3) = 1; 
+    
+    _assert(m_equals(B, C, 1e-10));
+    
+    return 0;
+}
+int m_union_01() {
+	int c = 3;
+	Matrix A(c);
+	A(1) = 1; A(2) = 2; A(3) = 3; 
+	Matrix B(c);
+	B(1) = 4; B(2) = 5; B(3) = 6; 
+	
+	Matrix C(6);
+	C(1) = 1; C(2) = 2; C(3) = 3; C(4) = 4; C(5) = 5; C(6) = 6;
+    Matrix res = union_vector(A,B);
+    _assert(m_equals(res, C, 1e-10));
+    
+    return 0;
+}
+int m_extractrow_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 6; A(1,2) = 3; A(1,3) = 9;  
+	A(2,1) = 0; A(2,2) = 6; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 6;
+	
+	Matrix C(3);
+	C(1) = 0; C(2) = 6; C(3) = 3; 
+    Matrix res=extract_row(A,2);
+    _assert(m_equals(res, C, 1e-10));
+    
+    return 0;
+}
+int m_extractcol_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 6; A(1,2) = 3; A(1,3) = 9;  
+	A(2,1) = 0; A(2,2) = 6; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 6;
+	
+	Matrix C(3);
+	C(1) = 3; C(2) = 6; C(3) = 0; 
+    Matrix res=extract_column(A,2);
+    _assert(m_equals(res, C, 1e-10));
+    
+    return 0;
+}
+int m_assrow_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 6; A(1,2) = 3; A(1,3) = 9;  
+	A(2,1) = 0; A(2,2) = 6; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 6; 
+	Matrix C(3);
+	C(1) = 3; C(2) = 6; C(3) = 0;
+	Matrix res=assign_row(A,C,3);
+	Matrix B(3, 3);
+	B(1,1) = 6; B(1,2) = 3; B(1,3) = 9;  
+	B(2,1) = 0; B(2,2) = 6; B(2,3) = 3; 
+	B(3,1) = 3; B(3,2) = 6; B(3,3) = 0;  
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_asscol_01() {
+	
+	Matrix A(3, 3);
+	A(1,1) = 6; A(1,2) = 3; A(1,3) = 9;  
+	A(2,1) = 0; A(2,2) = 6; A(2,3) = 3; 
+	A(3,1) = 0; A(3,2) = 0; A(3,3) = 6; 
+	Matrix C(3);
+	C(1) = 3; C(2) = 6; C(3) = 0;
+	Matrix res=assign_column(A,C,3);
+	Matrix B(3, 3);
+	B(1,1) = 6; B(1,2) = 3; B(1,3) = 3;  
+	B(2,1) = 0; B(2,2) = 6; B(2,3) = 6; 
+	B(3,1) = 0; B(3,2) = 0; B(3,3) = 0;  
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
 int all_tests()
 {
     _verify(m_sum_01);
@@ -173,6 +420,23 @@ int all_tests()
 	_verify(m_div_01);
 	_verify(m_eye_01);
 	_verify(m_inv_01);
+	_verify(m_eq_01);
+	_verify(m_trans_01);
+	_verify(m_nsum_01);
+	_verify(m_nsub_01);
+	_verify(m_nmul_01);
+	_verify(m_ndiv_01);
+	_verify(m_extn_01);
+	_verify(m_nzeros_01);
+	_verify(m_norm_01);
+	_verify(m_dot_01);
+	_verify(m_cross_01);
+	_verify(m_extract_01);
+	_verify(m_union_01);
+	_verify(m_extractrow_01);
+	_verify(m_extractcol_01);
+	_verify(m_assrow_01);
+	_verify(m_asscol_01);
     return 0;
 }
 
