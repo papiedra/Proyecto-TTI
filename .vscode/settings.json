@@ -4,6 +4,8 @@
         "new": "cpp",
         "cstdlib": "cpp",
         "iostream": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "cmath": "cpp",
+        "cstdio": "cpp"
     }
 }

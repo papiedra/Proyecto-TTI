@@ -1,4 +1,8 @@
 #include "..\include\matrix.hpp"
+#include "..\include\AccelPointMass.hpp"
+#include "..\include\Cheb3D.hpp"
+#include "..\include\EccAnom.hpp"
+#include "..\include\Frac.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -411,6 +415,60 @@ int m_asscol_01() {
     
     return 0;
 }
+int m_AccelPointMass_01() {
+	Matrix r(3);
+	r(1) = 1; r(2) = 2; r(3) = 3; 
+	Matrix s(3);
+	s(1) = 3; s(2) = 2; s(3) = 1; 
+	double GM=10;
+	Matrix B=AccelPointMass(r,s,GM);
+	Matrix res(3);
+	res(1)=0.3112 ; res(2)= -0.3818; res(3)= -1.0748;
+    _assert(m_equals(B, res, 1e-4)); // Es el nivel de precisión que me da matlab
+    
+    return 0;
+}
+int m_Cheb3D_01() {
+	int N=5;
+	double Ta=0.0; double Tb=10.0; double t=5.0;
+	Matrix Cx(5);
+	Cx(1) = 1; Cx(2) = 2; Cx(3) = 3; Cx(4) = 4; Cx(5) = 5; 
+	Matrix Cy(5);
+	Cy(1) = 1.5; Cy(2) = 2.5; Cy(3) = 3.5; Cy(4) = 4.5; Cy(5) = 5.5; 
+	Matrix Cz(5);
+	Cz(1) = 2; Cz(2) = 3; Cz(3) = 4; Cz(4) = 5; Cz(5) = 6; 
+	Matrix B=Cheb3D(t,N,Ta,Tb,Cx,Cy,Cz);
+	Matrix res(3);
+	res(1)=3 ; res(2)= 3.5; res(3)= 4;
+    _assert(m_equals(B, res, 1e-10));
+    
+    return 0;
+}
+int m_EccAnom_01() {
+	double M=1.5;
+	double e=0.5;
+	double res=EccAnom(M,e);
+	double B=1.9622;
+    _assert(abs(res-B<1e-10));
+    
+    return 0;
+}
+int m_Frac_01() {
+	double x=1.5;
+	double res=Frac(x);
+	double B=1;
+    _assert(abs(res-B<1e-10));
+    
+    return 0;
+}
+int m_MeanObliquity_01() {
+	double Mjd_TT=58000;
+	double res=Frac(Mjd_TT);
+	double B=0.000241073;
+    _assert(abs(res-B<1e-10));
+    
+    return 0;
+}
 int all_tests()
 {
     _verify(m_sum_01);
@@ -437,6 +495,11 @@ int all_tests()
 	_verify(m_extractcol_01);
 	_verify(m_assrow_01);
 	_verify(m_asscol_01);
+	_verify(m_AccelPointMass_01);
+	_verify(m_Cheb3D_01);
+	_verify(m_EccAnom_01);
+	_verify(m_Frac_01);
+	_verify(m_MeanObliquity_01);
     return 0;
 }
 
