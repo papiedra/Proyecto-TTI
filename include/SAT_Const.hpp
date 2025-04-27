@@ -42,4 +42,6 @@ const double GM_Pluto    = 1020.864920706286e9;          // [m^3/s^2]; DE200
 // Solar radiation pressure at 1 AU
 const double P_Sol       = 4.560e-6;          // [N/m^2] (~1367 W/m^2); IERS 96
 
+// eps
+const double eps = 2.2204e-16; //constante eps propia de matlab
 #endif 

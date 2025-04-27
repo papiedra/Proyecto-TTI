@@ -123,15 +123,24 @@ Matrix& Matrix::operator / (Matrix &m){
 
 Matrix& Matrix::operator = (Matrix &m)
 {
-	if (this->n_row != m.n_row and this->n_column != m.n_column) {
-		cout << "Matrix div: tamaños incompatibles para división\n";
+	this->n_row = m.n_row;
+	this->n_column = m.n_column;
+
+	this->data = (double **) malloc(m.n_row*sizeof(double *));
+	
+    if (this->data == NULL) {
+		cout << "Matrix assignment: error in data\n";
         exit(EXIT_FAILURE);
 	}
-    for (int i = 1; i <= n_row; i++)
-        for (int j = 1; j <= n_column; j++)
-            (*this)(i,j) = m(i,j);
- 
-    return *this;
+	
+	for(int i = 0; i < m.n_row; i++) {
+		this->data[i] = (double *) malloc(m.n_column*sizeof(double));
+		for (int j = 0; j < this->n_column; j++) {
+			this->data[i][j]=m.data[i][j];
+		}
+	}
+	
+	return *this;
 }
 
 ostream& operator << (ostream &o, Matrix &m) {
@@ -188,14 +197,13 @@ Matrix& Matrix::operator / (double n)
 }
 
 Matrix& zeros(const int n_row, const int n_column) {
-	Matrix *m_aux = new Matrix(n_row, n_column);
 	
+	Matrix *m_aux = new Matrix(n_row, n_column);
 	for(int i = 1; i <= n_row; i++) {
 		for(int j = 1; j <= n_column; j++) {
 			(*m_aux)(i,j) = 0;
 		}
 	}
-	
 	return (*m_aux);
 }
 

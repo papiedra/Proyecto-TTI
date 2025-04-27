@@ -1,5 +1,5 @@
 #include "..\include\EccAnom.hpp"
-
+#include "..\include\SAT_Const.hpp" 
 double EccAnom(double M, double e){
    int maxit=15;
    int i=1;
@@ -12,8 +12,7 @@ double EccAnom(double M, double e){
    }
    double f=E-e*sin(E)-M;
    E=E-f/(1-e*cos(E));
-   double eps=pow(10,-8); //Es la tolerancia que vamos a considerar
-   while(fabs(f)>100*eps){
+   while(fabs(f)> eps){
         f=E-e*sin(E)-M;
         E = E - f / ( 1.0 - e*cos(E) );
          i = i+1;

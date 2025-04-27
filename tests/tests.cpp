@@ -1,8 +1,25 @@
+// NOTA: Algunos valores para los test los he obtenido de chatgp o pidiéndolos a otros compañeros con el fin de obtener valores decentes de test.
 #include "..\include\matrix.hpp"
 #include "..\include\AccelPointMass.hpp"
 #include "..\include\Cheb3D.hpp"
 #include "..\include\EccAnom.hpp"
 #include "..\include\Frac.hpp"
+#include "..\include\Mjday.hpp"
+#include "..\include\SAT_Const.hpp" 
+#include "..\include\MeanObliquity.hpp" 
+#include "..\include\Mjday_TBD.hpp"
+#include "..\include\Position.hpp"
+#include "..\include\R_x.hpp"
+#include "..\include\R_y.hpp"
+#include "..\include\R_z.hpp"
+#include "..\include\sign_.hpp"
+#include "..\include\timediff.hpp"
+#include "..\include\AzElPa.hpp"
+#include "..\include\IERS.hpp"
+#include "..\include\global.hpp"
+#include "..\include\Legendre.hpp"
+#include "..\include\NutAngles.hpp"
+#include "..\include\TimeUpdate.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -415,7 +432,7 @@ int m_asscol_01() {
     
     return 0;
 }
-int m_AccelPointMass_01() {
+int AccelPointMass_01() {
 	Matrix r(3);
 	r(1) = 1; r(2) = 2; r(3) = 3; 
 	Matrix s(3);
@@ -428,7 +445,7 @@ int m_AccelPointMass_01() {
     
     return 0;
 }
-int m_Cheb3D_01() {
+int Cheb3D_01() {
 	int N=5;
 	double Ta=0.0; double Tb=10.0; double t=5.0;
 	Matrix Cx(5);
@@ -444,33 +461,195 @@ int m_Cheb3D_01() {
     
     return 0;
 }
-int m_EccAnom_01() {
+int EccAnom_01() {
 	double M=1.5;
 	double e=0.5;
 	double res=EccAnom(M,e);
-	double B=1.9622;
-    _assert(abs(res-B<1e-10));
+	double B=1.96219;
+    _assert(abs(res-B)<1e-6);
     
     return 0;
 }
-int m_Frac_01() {
+int Frac_01() {
 	double x=1.5;
 	double res=Frac(x);
-	double B=1;
-    _assert(abs(res-B<1e-10));
+	double B=0.5;
+    _assert(abs(res-B)<1e-6);
     
     return 0;
 }
-int m_MeanObliquity_01() {
+int MeanObliquity_01() {
 	double Mjd_TT=58000;
-	double res=Frac(Mjd_TT);
-	double B=0.000241073;
-    _assert(abs(res-B<1e-10));
+	double res=MeanObliquity(Mjd_TT);
+	double B=0.409053;
+    _assert(abs(res-B)<1e-6);
     
     return 0;
+}
+int Mjday_01() {
+	int yr=2025;
+	int mon=4;
+	int day=27;
+	double hr=12;
+	double min=0;
+	double sec=0;
+	double res=Mjday(yr,mon,day,hr,min, sec);
+	double B=60792.5;
+    _assert(abs(res-B)<1e-6);
+    
+    return 0;
+}
+int Mjday_TBD_01() {
+	double Mjd_TT=51544.5;
+	double res=Mjday_TBD(Mjd_TT);
+	double B=51544.4999999988;
+    _assert(abs(res-B)<1e-6);
+    
+    return 0;
+}
+int Position_01() {
+    Matrix Pos = Position(0,1,1);
+	Matrix A(3);  
+    A(1) = 3454319.32320978910000000000;
+    A(2) = 0;
+    A(3) = 5343769.28735907750000000000;
+	
+	_assert(m_equals(A, Pos, 1e-10));
+
+    return 0;
+}
+int R_x_01() {
+	Matrix A = R_x(1.0);
+	
+    Matrix res(3, 3);  
+    res(1,1) = 1.0000    ; res(1,2) = 0; res(1,3) =  0;
+    res(2,1) = 0; res(2,2) = 0.54030230586814; res(2,3) =  0.841470984807897;
+    res(3,1) = 0; res(3,2) = -0.841470984807897 ; res(3,3) = 0.54030230586814;
+
+	
+    _assert(m_equals(A, res, 1e-10));  
+
+    return 0;
+}
+int R_y_01() {
+	Matrix A = R_y(1.0);
+	
+    Matrix res(3, 3);  
+    res(1,1) =0.54030230586814     ; res(1,2) = 0; res(1,3) =  -0.841470984807897;
+    res(2,1) = 0; res(2,2) = 1; res(2,3) =  0;
+    res(3,1) = 0.841470984807897; res(3,2) = 0 ; res(3,3) = 0.54030230586814;
+
+	
+    _assert(m_equals(A, res, 1e-10));  
+
+    return 0;
+}
+int R_z_01() {
+	Matrix A = R_z(1.0);
+	
+    Matrix res(3, 3);  
+    res(1,1) =0.54030230586814     ; res(1,2) = 0.841470984807897 ; res(1,3) =  0;
+    res(2,1) = -0.841470984807897 ; res(2,2) = 0.540302305868141; res(2,3) =  0;
+    res(3,1) = 0; res(3,2) = 0 ; res(3,3) = 1;
+
+	
+    _assert(m_equals(A, res, 1e-10));  
+
+    return 0;
+}
+int sign__01() {
+	double a=5.0;
+	double b=-2;
+	double res=sign_(a,b);
+	double aux=-5.0;
+	
+    _assert(res==aux);  
+
+    return 0;
+}
+int timediff_01() {
+	double UT1_UTC = -0.3341;
+    double TAI_UTC = 37;
+	auto [UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC]=timediff(UT1_UTC,TAI_UTC);
+
+    _assert(fabs(UT1_TAI + 37.3341) < 1e-10);
+    _assert(fabs(UTC_GPS + 18.0) < 1e-10);
+    _assert(fabs(UT1_GPS + 18.3341) < 1e-10);
+    _assert(fabs(TT_UTC - 69.184) < 1e-10);
+    _assert(fabs(GPS_UTC - 18.0) < 1e-10);
+
+    return 0;
+}
+int AzElPa_01() {
+	
+    Matrix r(3);
+	r(1)=1; r(2)=2; r(3)=3;
+	double expected = 0.463647609000806; 
+	double expected2 = 0.930274014115472;
+	std::tuple<double, double, Matrix, Matrix> result = AzElPa(r);
+
+	_assert(fabs(std::get<0>(result) - expected) < 1e-10);
+	_assert(fabs(std::get<1>(result) - expected2) < 1e-10);
+	return 0;
+}
+int IERS_01() {
+	std::tuple<double, double, double, double, double, double, double, double, double> result = IERS(eopdata, 37670,'n');
+	_assert(fabs(std::get<0>(result) - (-1.338037278494208e-07)) < 1e-10);
+	_assert(fabs(std::get<1>(result) - 1.058353113998928e-06) < 1e-10);
+	_assert(fabs(std::get<2>(result) - 0.030535300000000) < 1e-10);
+
+	return 0;
+}
+int Legendre_01() {
+	std::tuple<Matrix, Matrix> result = legendre(1, 2, 1.0);
+	Matrix P = std::get<0>(result);
+	Matrix dP = std::get<1>(result);
+	Matrix expected(2,3);
+	expected(1,1) = 1.0;    expected(1,2) = 0.0;       expected(1,3) = 0.0;
+	expected(2,1) = 1.457470498782296; expected(2,2) = 0.935831045210238;    expected(2,3) = 0.0;
+	_assert(m_equals(P, expected, 1e-10));
+	return 0;
+}
+int NutAngles_01() {
+	double Mjd_TT = 6.067604166666651e04;
+	double expected = 9.723503682287755e-07;
+	double expected2 = 4.120518762261807e-05;
+	std::tuple<double, double> result = NutAngles(Mjd_TT);
+
+	_assert(fabs(std::get<0>(result) - expected) < 1e-10);
+	_assert(fabs(std::get<1>(result) - expected2) < 1e-10);
+	return 0;
+}
+int TimeUpdate_01() {
+	Matrix P(2, 2);
+    P(1, 1) = 1;
+    P(1, 2) = 2;
+    P(2, 1) = 3;
+    P(2, 2) = 4;
+
+    Matrix Phi(2, 2);
+    Phi(1, 1) = 2;
+    Phi(1, 2) = 3;
+    Phi(2, 1) = 1;
+    Phi(2, 2) = 2;
+
+    double Qdt = 1;
+
+    Matrix P_updated = TimeUpdate(P, Phi, Qdt);
+	Matrix Res(2, 2);
+    Res(1, 1) = 71;
+    Res(1, 2) = 44;
+    Res(2, 1) = 45;
+    Res(2, 2) = 28;
+	
+	_assert(m_equals(Res, P_updated, 1e-10));
+	
+	return 0;
 }
 int all_tests()
 {
+	
+	eop19620101(10);
     _verify(m_sum_01);
     _verify(m_sub_01);
     _verify(m_zeros_01);
@@ -495,11 +674,24 @@ int all_tests()
 	_verify(m_extractcol_01);
 	_verify(m_assrow_01);
 	_verify(m_asscol_01);
-	_verify(m_AccelPointMass_01);
-	_verify(m_Cheb3D_01);
-	_verify(m_EccAnom_01);
-	_verify(m_Frac_01);
-	_verify(m_MeanObliquity_01);
+	_verify(AccelPointMass_01);
+	_verify(Cheb3D_01);
+	_verify(EccAnom_01);
+	_verify(Frac_01);
+	_verify(MeanObliquity_01);
+	_verify(Mjday_01);
+	_verify(Mjday_TBD_01);
+	_verify(Position_01);
+	_verify(R_x_01);
+	_verify(R_y_01);
+	_verify(R_z_01);
+	_verify(sign__01);
+	_verify(timediff_01);
+	_verify(AzElPa_01);
+	_verify(IERS_01);
+	_verify(Legendre_01);
+	_verify(NutAngles_01);
+	_verify(TimeUpdate_01);
     return 0;
 }
 
@@ -507,7 +699,6 @@ int all_tests()
 int main()
 {
     int result = all_tests();
-
     if (result == 0)
         printf("PASSED\n");
 
