@@ -260,8 +260,8 @@ Matrix& inv(Matrix &m) {
 }
 Matrix& transpose(Matrix &m) {
 	Matrix *aux=new Matrix(m.n_column,m.n_row);
-	for(int i=1;i<=m.n_column;i++){
-		for(int j=1;j<=m.n_row;j++){
+	for(int i=1;i<=m.n_row;i++){
+		for(int j=1;j<=m.n_column;j++){
 			(*aux)(j,i)=m(i,j);
 		}
 	}

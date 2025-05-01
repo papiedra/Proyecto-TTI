@@ -1,4 +1,4 @@
-// NOTA: Algunos valores para los test los he obtenido de chatgp o pidiéndolos a otros compañeros con el fin de obtener valores decentes de test.
+
 #include "..\include\matrix.hpp"
 #include "..\include\AccelPointMass.hpp"
 #include "..\include\Cheb3D.hpp"
@@ -20,6 +20,11 @@
 #include "..\include\Legendre.hpp"
 #include "..\include\NutAngles.hpp"
 #include "..\include\TimeUpdate.hpp"
+#include "..\include\AccelHarmonic.hpp"
+#include "..\include\EqnEquinox.hpp"
+#include "..\include\LTC.hpp"
+#include "..\include\NutMatrix.hpp"
+#include "..\include\PoleMatrix.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -646,10 +651,67 @@ int TimeUpdate_01() {
 	
 	return 0;
 }
+int AccelHarmonic_01() {
+	double a = -4.783104375562398e+09;
+	Matrix r(3,3);
+	r(1,1)=1; r(1,2)=2; r(1,3)=3;
+	r(2,1)=4; r(2,2)=5; r(2,3)=6;
+	r(3,1)=7; r(3,2)=8; r(3,3)=9;
+	Matrix E(3);
+	E(1)=10; E(2)=10; E(3)=10;
+	Matrix res(3);
+	res(1)=-3.851815228199548e+10; 
+	res(2)=-4.592548925930230e+10;
+	res(3)=-5.333282623660913e+10;
+	Matrix aux=transpose(E);
+	Matrix Accel = AccelHarmonic(transpose(E),r, 1, 10);
+	_assert(m_equals(transpose(res), Accel, 1e-10));
+	return 0;
+}
+int EqnEquinox_01() {
+	double Mjd_TT = 51544.5;
+	double res = EqnEquinox(Mjd_TT);
+	double aux= -6.19315e-05;
+	_assert(fabs(res-aux) < 1e-10);
+	return 0;
+}
+int LTC_01() {
+	double lon = 0;
+	double lat=0;
+	Matrix res=LTC(lon,lat);
+	Matrix aux(3,3);
+	aux(1,1)=0; aux(1,2)=1; aux(1,3)=0;
+	aux(2,1)=0; aux(2,2)=0; aux(2,3)=1;
+	aux(3,1)=1; aux(3,2)=0; aux(3,3)=0;
+	_assert(m_equals(aux, res, 1e-10));
+	return 0;
+}
+int NutMatrix_01() {
+	double Mjd_TT=51544.5;
+	Matrix res=NutMatrix(Mjd_TT);
+	Matrix aux(3,3);
+	aux(1,1)=0.9999999977; aux(1,2)=0.0000619323; aux(1,3)=0.0000268509;
+	aux(2,1)=-0.0000619331; aux(2,2)=0.9999999977; aux(2,3)=0.0000279914;
+	aux(3,1)=-0.0000268492; aux(3,2)=-0.0000279930; aux(3,3)=0.9999999992;
+	_assert(m_equals(aux, res, 1e-8));
+	return 0;
+}
+int PoleMatrix_01() {
+	double xp=0.1;
+	double yp=0.2;
+	Matrix res=PoleMatrix(xp,yp);
+	Matrix aux(3,3);
+	aux(1,1)=0.9950041653; aux(1,2)=0.0198338381; aux(1,3)=0.0978433950;
+	aux(2,1)=0; aux(2,2)=0.9800665778; aux(2,3)=-0.1986693308;
+	aux(3,1)=-0.0998334166; aux(3,2)=0.1976768117; aux(3,3)=0.9751703272;
+	_assert(m_equals(aux, res, 1e-8));
+	return 0;
+}
 int all_tests()
 {
 	
 	eop19620101(10);
+	GGM03S();
     _verify(m_sum_01);
     _verify(m_sub_01);
     _verify(m_zeros_01);
@@ -692,6 +754,11 @@ int all_tests()
 	_verify(Legendre_01);
 	_verify(NutAngles_01);
 	_verify(TimeUpdate_01);
+	_verify(AccelHarmonic_01);
+	_verify(EqnEquinox_01);
+	_verify(LTC_01);
+	_verify(NutMatrix_01);
+	_verify(PoleMatrix_01);
     return 0;
 }
 
