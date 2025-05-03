@@ -25,6 +25,8 @@
 #include "..\include\LTC.hpp"
 #include "..\include\NutMatrix.hpp"
 #include "..\include\PoleMatrix.hpp"
+#include "..\include\PrecMat.hpp"
+#include "..\include\gmst.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -707,6 +709,24 @@ int PoleMatrix_01() {
 	_assert(m_equals(aux, res, 1e-8));
 	return 0;
 }
+int PrecMat_01() {
+	double Mjd_1=51544.5;
+	double Mjd_2=51544.5 + 365.25*50;
+	Matrix res=PrecMat(Mjd_1,Mjd_2);
+	Matrix aux(3,3);
+	aux(1,1)=0.9999256757; aux(1,2)=-0.0111822764; aux(1,3)=-0.0048579492;
+	aux(2,1)=0.0111822764; aux(2,2)=0.9999374760; aux(2,3)=-0.0000271648;
+	aux(3,1)=0.0048579492; aux(3,2)=-0.0000271601; aux(3,3)=0.9999881997;
+	_assert(m_equals(aux, res, 1e-8));
+	return 0;
+}
+int gmst_01() {
+	double Mjd_UT1 = 51544.5+1000;
+	double res = gmst(Mjd_UT1);
+	double aux= 3.2481971017;
+	_assert(fabs(res-aux) < 1e-8);
+	return 0;
+}
 int all_tests()
 {
 	
@@ -759,6 +779,8 @@ int all_tests()
 	_verify(LTC_01);
 	_verify(NutMatrix_01);
 	_verify(PoleMatrix_01);
+	_verify(PrecMat_01);
+	_verify(gmst_01);
     return 0;
 }
 
