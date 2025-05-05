@@ -7,7 +7,9 @@
 extern Matrix eopdata;
 extern Matrix Cnm;
 extern Matrix Snm;
+//extern Matrix PC;
 
 void eop19620101(int c);
 void GGM03S();
+//void PC();
 #endif

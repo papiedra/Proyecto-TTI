@@ -27,6 +27,8 @@
 #include "..\include\PoleMatrix.hpp"
 #include "..\include\PrecMat.hpp"
 #include "..\include\gmst.hpp"
+#include "..\include\gast.hpp"
+#include "..\include\MeasUpdate.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -727,6 +729,46 @@ int gmst_01() {
 	_assert(fabs(res-aux) < 1e-8);
 	return 0;
 }
+int gast_01() {
+	double Mjd_UT1 = 51544.5+1000;
+	double res = gast(Mjd_UT1);
+	double aux= 3.2481221073;
+	_assert(fabs(res-aux) < 1e-8);
+	return 0;
+}
+int MeasUpdate_01() {
+	int n=4;
+	int m=2;
+	Matrix x(4);
+	x(1)=1; x(2)=2; x(3)=3; x(4)=4;
+	Matrix z(2);
+	z(1)=1.1; z(2)=1.9;
+	Matrix g(2);
+	g(1)=1; g(2)=2;
+	Matrix s(2);
+	s(1)=0.1; s(2)=0.2;
+	Matrix G(2,4);
+	G(1,1)=1; G(1,2)=0; G(1,3)=0;G(1,4)=-0;
+	G(2,1)=0; G(2,2)=1; G(2,3)=0; G(2,4)=0;
+	Matrix P=eye(n)*0.5;
+	std::tuple<Matrix, Matrix, Matrix> result = MeasUpdate(x,z,g,s,G,P,n);
+	Matrix aux1(4,2);
+	aux1(1,1)=0.9803921569; aux1(1,2)=0; 
+	aux1(2,1)=0; aux1(2,2)=0.9259259259; 
+	aux1(3,1)=0; aux1(3,2)=0; 
+	aux1(4,1)=0; aux1(4,2)=0;
+	Matrix aux2(4); 
+	aux2(1)=1.0980392157; aux2(2)=1.9074074074; aux2(3)=3.0000000000; aux2(4)=4.0000000000;
+	Matrix aux3(4,4);
+	aux3(1,1)=0.0098039216; aux3(1,2)=0; aux3(1,3)=0;aux3(1,4)=0;
+	aux3(2,1)=0; aux3(2,2)=0.0370370370; aux3(2,3)=0;aux3(2,4)=0;
+	aux3(3,1)=0; aux3(3,2)=0; aux3(3,3)=0.5000000000;aux3(3,4)=0;
+	aux3(4,1)=0; aux3(4,2)=0; aux3(4,3)=0;aux3(4,4)=0.5000000000;
+	_assert(m_equals(std::get<0>(result), aux1, 1e-10));
+	_assert(m_equals(std::get<1>(result), aux2, 1e-10));
+	_assert(m_equals(std::get<2>(result), aux3, 1e-10));
+	return 0;
+}
 int all_tests()
 {
 	
@@ -781,6 +823,8 @@ int all_tests()
 	_verify(PoleMatrix_01);
 	_verify(PrecMat_01);
 	_verify(gmst_01);
+	_verify(gast_01);
+	_verify(MeasUpdate_01);
     return 0;
 }
 
