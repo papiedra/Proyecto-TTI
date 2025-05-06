@@ -11,5 +11,5 @@ extern Matrix Snm;
 
 void eop19620101(int c);
 void GGM03S();
-//void PC();
+//Matrix PC(2285,1020);
 #endif

@@ -30,6 +30,7 @@
 #include "..\include\gast.hpp"
 #include "..\include\MeasUpdate.hpp"
 #include "..\include\G_AccelHarmonic.hpp"
+#include "..\include\GHAMatrix.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -783,6 +784,16 @@ int G_AccelHarmonic_01() {
 	_assert(m_equals(aux, res, 1e-8));
 	return 0;
 }
+int GHAMatrix_01() {
+	double Mjd_UT1 = 51544.5+1000;
+	Matrix res=GHAMatrix(Mjd_UT1);
+	Matrix aux(3,3);
+	aux(1,1)=-0.9943311019; aux(1,2)=-0.1063280760 ; aux(1,3)=0;
+	aux(2,1)=0.1063280760; aux(2,2)=-0.9943311019; aux(2,3)=0;
+	aux(3,1)=0; aux(3,2)=0; aux(3,3)=1;
+	_assert(m_equals(aux, res, 1e-8));
+	return 0;
+}
 int all_tests()
 {
 	
@@ -840,6 +851,7 @@ int all_tests()
 	_verify(gast_01);
 	_verify(MeasUpdate_01);
 	_verify(G_AccelHarmonic_01);
+	_verify(GHAMatrix_01);
     return 0;
 }
 
