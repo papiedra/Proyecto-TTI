@@ -29,6 +29,7 @@
 #include "..\include\gmst.hpp"
 #include "..\include\gast.hpp"
 #include "..\include\MeasUpdate.hpp"
+#include "..\include\G_AccelHarmonic.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -769,6 +770,19 @@ int MeasUpdate_01() {
 	_assert(m_equals(std::get<2>(result), aux3, 1e-10));
 	return 0;
 }
+int G_AccelHarmonic_01() {
+	Matrix U=eye(3);
+	Matrix r(3);
+	r(1)=7000e3; r(2)=0; r(3)=0;
+	double n_max=4; double m_max=4;
+	Matrix res=G_AccelHarmonic(r,U,n_max,m_max);
+	Matrix aux(3,3);
+	aux(1,1)=0.00000233048175068973; aux(1,2)=-0.00000000001880984257 ; aux(1,3)=-0.00000000005188915964;
+	aux(2,1)=-0.00000000001880403018; aux(2,2)=-0.00000116369304011319; aux(2,3)=-0.00000000000590145164;
+	aux(3,1)=-0.00000000005189005887; aux(3,2)=-0.00000000000590145165; aux(3,3)=-0.00000116678871423608;
+	_assert(m_equals(aux, res, 1e-8));
+	return 0;
+}
 int all_tests()
 {
 	
@@ -825,6 +839,7 @@ int all_tests()
 	_verify(gmst_01);
 	_verify(gast_01);
 	_verify(MeasUpdate_01);
+	_verify(G_AccelHarmonic_01);
     return 0;
 }
 
