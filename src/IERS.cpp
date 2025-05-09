@@ -16,7 +16,7 @@ std::tuple<double,  double, double, double, double, double, double, double, doub
 
 
 
-            int i = 0;
+            int i = 1;
             Matrix aux = extract_row(eop,4);
             for (int j = 1; j <= aux.n_column; j++) {
                 if (aux(j) == mjd) {
@@ -25,9 +25,8 @@ std::tuple<double,  double, double, double, double, double, double, double, doub
                 }
             }
 
-    
-            Matrix preeop = extract_column(eop,i);
 
+            Matrix preeop = extract_column(eop,i);
     
             Matrix nexteop = extract_column(eop,i+1);
             
