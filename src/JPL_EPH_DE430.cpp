@@ -23,13 +23,13 @@ std::tuple<Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix
     for(i=1.0; i < PC.n_row; i++) {
         if (PC(i, 1)<=JD && JD<=PC(i, 2)) break;
     } 
-    PCtemp = extract_row(PC,i);//PC(i,:);
+    PCtemp = extract_row(PC,i);
 
-    t1 = PCtemp(1)-2400000.5; // MJD at start of interval
+    t1 = PCtemp(1)-2400000.5; 
 
     dt = Mjd_TDB - t1;
 
-    //temp = (231:13:270); // 231   244   257   270
+    
     temp = range(231, 13, 270);
     
     Cx_Earth = extract_vector(PCtemp,temp(1), temp(2)-1);
