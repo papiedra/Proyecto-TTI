@@ -4,7 +4,8 @@
 Matrix& VarEqn(double x, Matrix yPhi) {
 
     auto [x_pole,y_pole,UT1_UTC,LOD,dpsi,deps,dx_pole,dy_pole,TAI_UTC] = IERS(eopdata,AuxParam.Mjd_UTC,'l');
-    auto [UT1_TAI,UTC_GPS,UT1_GPS,TT_UTC,GPS_UTC] = timediff(UT1_UTC,TAI_UTC);
+    double UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC;
+    timediff(UT1_UTC, TAI_UTC, UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC);
     double Mjd_UT1 = AuxParam.Mjd_TT + (UT1_UTC-TT_UTC)/86400;
 
     Matrix   T, E, r, v, Phi, a, dfdy, Phip;

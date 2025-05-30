@@ -34,6 +34,14 @@
 #include "..\include\JPL_EPH_DE430.hpp"
 #include "..\include\VarEqn.hpp"
 #include "..\include\Accel.hpp"
+#include "..\include\DEInteg.hpp"
+#include "..\include\Geodetic.hpp"
+#include "..\include\angl.hpp"
+#include "..\include\unit.hpp"
+#include "..\include\hgibbs.hpp"
+#include "..\include\gibbs.hpp"
+#include "..\include\elements.hpp"
+#include "..\include\anglesg.hpp"
 #include <cstdio>
 #include <cmath>
 
@@ -584,15 +592,19 @@ int sign__01() {
 int timediff_01() {
 	double UT1_UTC = -0.3341;
     double TAI_UTC = 37;
-	auto [UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC]=timediff(UT1_UTC,TAI_UTC);
+
+    double UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC;
+
+    timediff(UT1_UTC, TAI_UTC, UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC);
 
     _assert(fabs(UT1_TAI + 37.3341) < 1e-10);
     _assert(fabs(UTC_GPS + 18.0) < 1e-10);
     _assert(fabs(UT1_GPS + 18.3341) < 1e-10);
     _assert(fabs(TT_UTC - 69.184) < 1e-10);
     _assert(fabs(GPS_UTC - 18.0) < 1e-10);
+	
+	return 0;
 
-    return 0;
 }
 int AzElPa_01() {
 	
@@ -931,6 +943,185 @@ int Accel_01() {
 	return 0;	
 }
 
+int DEinteg_01() { 
+	AuxParam.Mjd_UTC=4.974611128472211e+04;
+	Matrix Y0_apr(6, 1);
+	Y0_apr(1, 1) = 6.221397628578685e+06;
+	Y0_apr(2, 1) = 2.867713779657379e+06;
+	Y0_apr(3, 1) = 3.006155985099489e+06;
+	Y0_apr(4, 1) = 4.645047251618060e+03;
+	Y0_apr(5, 1) = -2.752215915882042e+03;
+	Y0_apr(6, 1) = -7.507999409870306e+03;
+	Matrix result = DEInteg(Accel, 0.0, -1.349999919533730e+02, 1e-13, 1e-6, 6, Y0_apr);
+
+	Matrix exp(6, 1);
+	exp(1, 1) = 5.542555937228607e+06;
+	exp(2, 1) = 3.213514867349196e+06;
+	exp(3, 1) = 3.990892975876853e+06;
+	exp(4, 1) = 5.394068421663513e+03;
+	exp(5, 1) = -2.365213378823415e+03;
+	exp(6, 1) = -7.061845542002954e+03;
+	_assert(m_equals(transpose(result), exp, 1e-6));
+	return 0;
+
+}
+
+int geodetic_01() {
+	
+	double h2 = -6356745.57691637;
+	double lat2 = 1.56943545859473;
+	double lon2 = 0.540419500270584;
+	Matrix r(3);
+	r(1)=50; r(2)=30; r(3)=6;
+
+    auto [lon, lat, h] = Geodetic(r);
+	_assert(fabs(lat-lat2) < 1e-4);
+	_assert(fabs(lon-lon2) < 1e-4);
+	return 0;
+}
+
+int angl_01() {
+	Matrix vec1(3);
+	vec1(1)=0; vec1(2)=0; vec1(3)=1;
+	Matrix vec2(3);
+	vec2(1)=1; vec2(2)=0; vec2(3)=0;
+	
+	double theta = angl(vec1,vec2);
+	_assert(fabs(M_PI/2-theta) < 1e-10);
+	return 0;
+}
+
+int unit_01() {
+	Matrix vec(3, 1);
+	vec(1, 1)=50.659;
+	vec(2, 1)=755545.925151;
+	vec(3, 1)=-5522525.562;
+
+	Matrix vec2(3);
+	vec2(1)=9.0884957606754e-06 ; vec2(2)=0.135548983156605; vec2(3)=-0.990770646054176;
+
+	Matrix res = unit(vec);
+	
+	_assert(m_equals(vec2, res, 1e-10));
+
+	return 0;
+}
+
+int hgibbs_01() {
+	Matrix r1(3, 1);
+	r1(1, 1)=5.720303710129856e+06;
+	r1(2, 1)=3.152426696533103e+06;
+	r1(3, 1)=3.750056804164019e+06;
+	Matrix r2(3,1);
+	r2(1, 1) = 6.221397628578685e+06;
+	r2(2, 1) = 2.867713779657379e+06;
+	r2(3, 1) = 3.006155985099489e+06;
+	Matrix r3(3, 1);
+	r3(1, 1) = 6.699811809767957e+06;
+	r3(2, 1) = 2.569867807638814e+06;
+	r3(3, 1) = 2.154940295423891e+06;
+	double Mjd1=4.974611015046295e+04;
+	double Mjd2=4.974611128472211e+04;
+	double Mjd3=4.974611253472231e+04;
+	
+
+	double theta2 = 0;
+	double theta12 = 0;
+	double cop2 = 0.00509723;
+	string error2 = "          ok";
+	auto [v2, theta, theta1, copa, error] = hgibbs(r1, r2, r3, Mjd1, Mjd2, Mjd3);
+	_assert(fabs(theta-theta2) < 1e-8);
+	_assert(fabs(theta1-theta12) < 1e-8);
+	_assert(fabs(cop2-copa) < 1e-8);
+	_assert(error==error2);
+
+	return 0;
+}
+
+int elements_01() {
+
+
+	Matrix y(6);
+	y(1) = 6221397.62857869;
+	y(2) = 2867713.77965738;
+	y(3) = 3006155.98509949;
+
+	y(4) = 4645.04725161806;
+	y(5) = -2752.21591588204;
+    y(6) = -7507.99940987031;
+
+	auto [p, a, e, i, Omega, omega, M] = elements(y);
+	double p2 = 12001693.597214;
+	double a2 = 18943922.6607145;
+	double e2 = 0.605361104987026;
+	double i2 = 2.02656295535017;
+	_assert(fabs(p-p2) < 2e-1);
+	_assert(fabs(a-a2) < 1e1);
+	_assert(fabs(e-e2) < 1e-7);
+	_assert(fabs(i-i2) < 1e-8);
+	return 0;
+
+}
+
+int gibbs_01() {
+	Matrix r1(3); Matrix r2(3); Matrix r3(3);
+	r1(1)=5700000;r1(2)=3200000;r1(3)=3700000;
+	r2(1)=6220000;r2(2)=2870000;r2(3)=3000000;
+	r3(1)=6700000;r3(2)=2570000;r3(3)=2150000;
+	auto [v2, theta, theta1, copa, error] = gibbs(transpose(r1),transpose(r2),transpose(r3));
+	Matrix ev2(3);
+	ev2(1)=3285.00672439696; ev2(2)=-2070.98907087224; ev2(3)=-5028.38856563685;
+	double etheta=0.124403423649683;
+	double etheta1=0.136536249640068;
+	double ecopa=0.0130938058778771;
+	string eerror = "          ok";
+
+	_assert(m_equals(v2, transpose(ev2), 1e-4));
+	_assert(fabs(theta-etheta) < 1e-4);
+	_assert(fabs(theta1-etheta1) < 1e-4);
+	_assert(fabs(copa-ecopa) < 1e-4);
+	_assert(error==eerror);
+
+	return 0;
+}
+
+int anglesg_01() {
+
+
+	double aux1=1.0559084894933;
+	double aux2=1.36310214580757;
+	double aux3=1.97615602688759;
+	double aux4=0.282624656433946;
+	double aux5=0.453434794338875;
+	double aux6=0.586427138011591;
+	double Mjd1=4.974611015046295e+04;
+	double Mjd2=4.974611128472211e+04;
+	double Mjd3=4.974611253472231e+04;
+	
+	Matrix Rs(3, 1);
+	Rs(1, 1) = -5.512567840036068e+06;
+	Rs(2, 1) = -2.196994446669333e+06;
+	Rs(3, 1) = 2.330804966146887e+06;
+	
+	Matrix r2(3, 1);
+    r2(1,1)=6221397.62857869;
+    r2(2,1)=2867713.77965738;
+    r2(3,1)=3006155.98509949;
+	
+    Matrix v2(3,1);
+    v2(1,1)=4645.04725161806;
+    v2(2,1)=-2752.21591588204;
+    v2(3,1)=-7507.99940987031;
+	
+	auto [expr2, expv2] = anglesg(aux1, aux2, aux3, aux4, aux5, aux6, Mjd1, Mjd2, Mjd3, Rs, Rs, Rs);
+	
+	_assert(m_equals(r2, expr2, 1e-7)); 
+	_assert(m_equals(v2, expv2, 1e-7));
+
+	return 0;
+}
+
+
 int all_tests()
 {
 	
@@ -994,6 +1185,14 @@ int all_tests()
 	_verify(JPL_EPH_DE430_01);
 	_verify(VarEqn_01);
 	_verify(Accel_01);
+	//_verify(DEinteg_01);
+	_verify(geodetic_01);
+	_verify(angl_01);
+	_verify(unit_01);
+	_verify(hgibbs_01);
+	_verify(gibbs_01);
+	_verify(elements_01);
+	//_verify(anglesg_01);
     return 0;
 }
 

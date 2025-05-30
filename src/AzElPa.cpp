@@ -14,7 +14,6 @@ std::tuple<double, double, Matrix, Matrix> AzElPa(Matrix& s){
 
     double El = atan(s(3) / rho); 
 
-    // Partials
     Matrix dAds=zeros(3);
     dAds(1) = s(2) / (rho * rho);
     dAds(2) = -s(1) / (rho * rho);
@@ -24,7 +23,6 @@ std::tuple<double, double, Matrix, Matrix> AzElPa(Matrix& s){
     dEds(2) = -s(2) * s(3) / rho;
     dEds(3) = rho;
 
-    // Normalize dEds by the dot product of s
     double dot_product = dot(s,s);
     Matrix res = dEds/dot_product;
     return std::make_tuple(Az,El,dAds,dEds);
