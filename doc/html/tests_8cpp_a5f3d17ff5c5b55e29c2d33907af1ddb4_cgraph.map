@@ -1,0 +1,21 @@
+<map id="hgibbs_01" name="hgibbs_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,86,133"/>
+<area shape="rect" id="Node000002" href="$hgibbs_8cpp.html#a1db91908c4316a75b6fa095eaabaf3e4" title="this function implements the herrick&#45;gibbs approximation for orbit determination, and finds the middl..." alt="" coords="134,107,193,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,117,118,117,118,123,86,123"/>
+<area shape="rect" id="Node000003" href="$angl_8cpp.html#ac48c4ac03e1bae9d3e53a2639792cd32" title="angle between the two vectors" alt="" coords="245,31,290,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,104,234,65,237,69,185,108"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a6051f8be055a7658461e1ddb60e704d8" title="Producto escalar entre vectores." alt="" coords="362,5,401,32"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="168,105,193,59,214,35,240,16,267,7,295,4,347,8,346,13,295,9,268,12,242,21,218,39,198,62,172,108"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a907c9c6f53fc52d17e86b507b156536f" title="Norma de una matriz." alt="" coords="356,81,407,108"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="193,114,341,97,341,102,194,119"/>
+<area shape="rect" id="Node000006" href="$matrix_8cpp.html#a64bac8cc779042ecf295e590d17a59e5" title="Producto Vectorial." alt="" coords="241,132,294,159"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="194,125,227,133,225,138,193,130"/>
+<area shape="rect" id="Node000007" href="$matrix_8cpp.html#acbd9778b697f9ad3da64ef53b850e2c9" title="Trasponer una matriz." alt="" coords="342,208,421,235"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="172,132,198,178,218,201,242,219,262,226,284,230,327,230,327,235,283,235,261,232,240,224,214,205,193,181,168,135"/>
+<area shape="rect" id="Node000008" href="$unit_8cpp.html#a14c6001388ed63c6cca5c34d16981d6f" title="this function calculates a unit vector given the original vector. if a zero vector is input,..." alt="" coords="246,183,289,209"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="185,132,237,171,234,175,182,136"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,36,346,24,347,29,292,42"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="292,52,343,75,341,80,290,56"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="282,180,352,117,356,121,286,184"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="290,198,328,207,326,212,289,203"/>
+</map>

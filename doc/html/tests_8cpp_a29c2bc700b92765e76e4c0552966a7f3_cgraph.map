@@ -1,0 +1,9 @@
+<map id="AzElPa_01" name="AzElPa_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,92,57"/>
+<area shape="rect" id="Node000002" href="$_az_el_pa_8cpp.html#a9e89e7c801fb096e6ecf5dd2075afcbd" title="Computes azimuth, elevation and partials from local tangent coordinates." alt="" coords="140,31,205,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,41,124,41,124,47,92,47"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a6051f8be055a7658461e1ddb60e704d8" title="Producto escalar entre vectores." alt="" coords="260,5,299,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,34,245,24,246,29,206,39"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="253,56,306,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="206,49,238,57,237,62,205,54"/>
+</map>

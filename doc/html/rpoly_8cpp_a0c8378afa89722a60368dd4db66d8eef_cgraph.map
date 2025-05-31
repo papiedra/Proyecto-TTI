@@ -1,0 +1,16 @@
+<map id="rpoly_quadit" name="rpoly_quadit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,97,133"/>
+<area shape="rect" id="Node000002" href="$rpoly_8cpp.html#a39eeff6ce1b93fcf95d1a6dbc409eb2c" title=" " alt="" coords="147,5,241,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,104,143,49,157,39,160,43,146,53,72,108"/>
+<area shape="rect" id="Node000003" href="$rpoly_8cpp.html#a6b061c866a6c87b258032fc472677a1a" title=" " alt="" coords="291,31,389,57"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="96,105,144,92,275,58,277,63,145,97,98,110"/>
+<area shape="rect" id="Node000004" href="$rpoly_8cpp.html#a2c6c0bec77b905a3233a6eb2cb34aab2" title=" " alt="" coords="145,107,243,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="97,117,129,117,129,123,97,123"/>
+<area shape="rect" id="Node000005" href="$rpoly_8cpp.html#ac719380921f0b9b60300272ee1baed82" title=" " alt="" coords="150,157,238,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="92,131,141,149,139,154,90,136"/>
+<area shape="rect" id="Node000007" href="$rpoly_8cpp.html#a55e41ca91a4e1b8c164d31b21ca1e939" title=" " alt="" coords="152,208,236,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="69,132,103,162,146,194,153,198,150,202,143,198,100,166,66,136"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,24,276,30,275,36,241,29"/>
+<area shape="rect" id="Node000006" href="$rpoly_8cpp.html#a81758b04934f15354fb2908023b66c82" title=" " alt="" coords="293,157,387,184"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="239,168,277,168,277,173,239,173"/>
+</map>

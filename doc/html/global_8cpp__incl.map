@@ -1,0 +1,25 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/global.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/global.cpp">
+<area shape="rect" id="Node000001" title="Implementación de los metodos auxparam,eop19620101,GGM03S,DE430Coeff y GEOS3." alt="" coords="264,5,456,64"/>
+<area shape="rect" id="Node000002" href="$global_8hpp.html" title="Cabeceras de los métodos que cargan ficheros y declaraciones de las variables extern." alt="" coords="231,112,369,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,66,319,101,315,98,338,63"/>
+<area shape="rect" id="Node000003" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="379,261,461,288"/>
+<area shape="poly" id="edge13_Node000001_Node000003" title=" " alt="" coords="380,63,410,119,423,152,433,186,435,218,431,247,425,246,430,217,428,187,418,154,405,121,376,66"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,137,378,156,395,169,409,185,421,215,424,246,419,246,416,217,404,188,391,173,375,160,339,142"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="209,336,266,363"/>
+<area shape="poly" id="edge11_Node000002_Node000006" title=" " alt="" coords="231,134,170,141,107,152,53,168,34,178,21,188,13,201,9,213,13,236,30,257,56,277,126,311,194,334,192,339,124,315,53,282,26,261,8,238,4,212,8,199,17,185,31,173,51,163,106,147,169,136,230,129"/>
+<area shape="rect" id="Node000008" href="$_s_a_t___const_8hpp.html" title=" " alt="" coords="31,187,145,213"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="264,142,140,184,139,179,262,137"/>
+<area shape="rect" id="Node000009" href="$_mjday_8hpp.html" title="Cabecera Mjday." alt="" coords="169,187,306,213"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="291,141,260,177,256,173,287,137"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="330,187,395,213"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="313,137,344,173,340,177,309,141"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="480,336,536,363"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="437,286,483,324,479,328,434,291"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="301,336,360,363"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="406,291,360,328,356,324,403,286"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="389,291,282,333,280,328,387,286"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="384,336,456,363"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="423,289,423,320,417,320,417,289"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="270,211,375,253,373,258,268,216"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="240,214,240,320,235,320,235,214"/>
+</map>

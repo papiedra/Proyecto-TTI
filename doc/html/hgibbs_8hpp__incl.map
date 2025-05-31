@@ -1,0 +1,25 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/hgibbs.hpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/hgibbs.hpp">
+<area shape="rect" id="Node000001" title="Cabecera hgibbs." alt="" coords="281,5,472,64"/>
+<area shape="rect" id="Node000002" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="158,187,297,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,55,233,78,212,94,195,113,190,128,192,143,208,173,203,176,187,144,185,127,191,111,209,90,230,73,280,50"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="435,261,492,288"/>
+<area shape="poly" id="edge12_Node000001_Node000005" title=" " alt="" coords="474,58,512,79,528,93,542,111,550,129,551,149,547,169,540,188,516,224,491,252,487,249,512,220,535,185,542,167,546,149,545,131,537,113,524,97,509,83,472,62"/>
+<area shape="rect" id="Node000007" href="$_s_a_t___const_8hpp.html" title=" " alt="" coords="205,112,375,139"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="351,66,315,103,311,99,347,62"/>
+<area shape="rect" id="Node000008" href="$angl_8hpp.html" title="Cabecera angl." alt="" coords="400,112,527,139"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="407,62,443,99,439,103,403,66"/>
+<area shape="rect" id="Node000009" href="$unit_8hpp.html" title="Cabecera unit." alt="" coords="5,112,130,139"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="281,66,127,110,126,105,280,61"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="603,112,652,139"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="459,62,589,108,587,113,457,67"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="118,261,174,288"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,216,173,253,170,249,212,212"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="198,261,257,288"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="230,214,230,246,225,246,225,214"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="269,211,421,258,419,263,268,216"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="281,261,352,288"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="245,212,291,249,288,253,241,216"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="423,142,284,184,283,179,422,137"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="466,139,466,246,461,246,461,139"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="96,137,187,177,185,182,94,142"/>
+</map>

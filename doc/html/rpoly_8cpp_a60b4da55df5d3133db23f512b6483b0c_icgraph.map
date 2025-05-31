@@ -1,0 +1,5 @@
+<map id="root_modulus_lower_bound" name="root_modulus_lower_bound">
+<area shape="rect" id="Node000001" title="Computes the lower bound on the modulus of the roots of a polynomial." alt="" coords="220,5,357,48"/>
+<area shape="rect" id="Node000002" href="$rpoly_8cpp.html#af09c0354f5c263de0a96c44dc0624210" title=" " alt="" coords="5,13,172,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,29,172,29,172,24,204,24"/>
+</map>

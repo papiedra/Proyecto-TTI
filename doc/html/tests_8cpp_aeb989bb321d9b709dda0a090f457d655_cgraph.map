@@ -1,0 +1,9 @@
+<map id="R_x_01" name="R_x_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,72,57"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="120,5,197,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,34,104,27,105,33,72,40"/>
+<area shape="rect" id="Node000003" href="$_r__x_8cpp.html#a9ddfb0a29d5d5a665c90840e28d0f9e8" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje x." alt="" coords="136,56,181,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="72,48,121,59,120,64,71,54"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="245,56,298,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="182,67,230,67,230,72,182,72"/>
+</map>

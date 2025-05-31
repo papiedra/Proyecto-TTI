@@ -1,0 +1,11 @@
+<map id="unit_01" name="unit_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,69,57"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="117,5,194,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,35,101,28,102,33,70,40"/>
+<area shape="rect" id="Node000003" href="$unit_8cpp.html#a14c6001388ed63c6cca5c34d16981d6f" title="this function calculates a unit vector given the original vector. if a zero vector is input,..." alt="" coords="134,56,176,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="70,48,119,59,118,64,69,53"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a907c9c6f53fc52d17e86b507b156536f" title="Norma de una matriz." alt="" coords="256,31,306,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="176,63,241,49,242,55,178,68"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#acbd9778b697f9ad3da64ef53b850e2c9" title="Trasponer una matriz." alt="" coords="242,81,320,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="178,71,227,81,226,86,176,76"/>
+</map>

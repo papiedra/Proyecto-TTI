@@ -1,0 +1,7 @@
+<map id="angl" name="angl">
+<area shape="rect" id="Node000001" title="angle between the two vectors" alt="" coords="5,31,51,57"/>
+<area shape="rect" id="Node000002" href="$matrix_8cpp.html#a6051f8be055a7658461e1ddb60e704d8" title="Producto escalar entre vectores." alt="" coords="104,5,144,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="50,36,88,25,90,30,52,41"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a907c9c6f53fc52d17e86b507b156536f" title="Norma de una matriz." alt="" coords="99,56,149,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="52,47,84,56,83,61,50,52"/>
+</map>

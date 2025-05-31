@@ -1,0 +1,24 @@
+<map id="unit" name="unit">
+<area shape="rect" id="Node000001" title="this function calculates a unit vector given the original vector. if a zero vector is input,..." alt="" coords="478,107,520,133"/>
+<area shape="rect" id="Node000002" href="$gibbs_8cpp.html#a579ddb809b4d4a061b4ac155a3a6f80a" title="Transformation from true equator and equinox to Earth equator and Greenwich meridian system this func..." alt="" coords="372,56,424,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="462,105,423,85,426,80,465,100"/>
+<area shape="rect" id="Node000008" href="$hgibbs_8cpp.html#a1db91908c4316a75b6fa095eaabaf3e4" title="this function implements the herrick&#45;gibbs approximation for orbit determination, and finds the middl..." alt="" coords="368,107,428,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="462,123,428,123,428,117,462,117"/>
+<area shape="rect" id="Node000010" href="$tests_8cpp.html#a4c7872c4348612329e716dd90e5f25df" title=" " alt="" coords="366,157,430,184"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="465,140,428,159,425,154,462,135"/>
+<area shape="rect" id="Node000003" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="245,56,311,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,72,312,72,312,67,356,67"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#afa20f97f25cbb17232e9ad66fba7111b" title=" " alt="" coords="242,5,315,32"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="356,55,311,35,313,30,358,50"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="103,56,190,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,72,190,72,190,67,230,67"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="111,107,182,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="243,43,240,46,216,71,192,97,175,108,172,104,188,93,212,68,236,42,240,39"/>
+<area shape="rect" id="Node000007" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,55,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="96,123,55,123,55,117,96,117"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="353,104,311,86,313,81,355,99"/>
+<area shape="rect" id="Node000009" href="$tests_8cpp.html#a5f3d17ff5c5b55e29c2d33907af1ddb4" title=" " alt="" coords="238,107,318,133"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="353,123,319,123,319,117,353,117"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="222,123,182,123,182,117,222,117"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="351,167,237,148,181,133,182,128,239,143,351,162"/>
+</map>

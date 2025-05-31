@@ -1,0 +1,19 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/Geodetic.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/Geodetic.cpp">
+<area shape="rect" id="Node000001" title="Implementación Geodetic." alt="" coords="239,5,430,64"/>
+<area shape="rect" id="Node000002" href="$_geodetic_8hpp.html" title="Cabecera Geodetic." alt="" coords="257,112,412,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,64,338,96,332,96,332,64"/>
+<area shape="rect" id="Node000003" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="86,187,226,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,142,202,183,200,178,303,137"/>
+<area shape="rect" id="Node000008" href="$_s_a_t___const_8hpp.html" title=" " alt="" coords="250,187,420,213"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="338,139,338,171,332,171,332,139"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="444,187,493,213"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="359,137,433,177,431,181,357,142"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,261,62,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="136,216,70,255,67,251,133,212"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="85,261,144,288"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="151,215,132,249,127,247,147,213"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="169,261,226,288"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="166,213,185,247,181,249,161,215"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="250,261,321,288"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="180,212,251,251,248,256,177,216"/>
+</map>

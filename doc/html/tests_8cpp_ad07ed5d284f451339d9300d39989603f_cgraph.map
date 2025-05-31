@@ -1,0 +1,10 @@
+<map id="m_inv_01" name="m_inv_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,83,81"/>
+<area shape="rect" id="Node000002" href="$matrix_8cpp.html#ad8d8519e7f94df41a4c5b535b4899222" title="Calcular inversa de una matriz." alt="" coords="150,29,189,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,58,134,47,136,52,84,63"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="131,80,208,107"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="84,73,116,80,115,85,83,78"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="150,30,146,20,149,11,157,5,169,3,183,5,190,12,186,16,180,10,169,8,159,10,153,14,152,20,155,28"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a15edf2068dad7d0ca7cef248e471f87d" title="Crear identidad de tamaño n." alt="" coords="256,29,298,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,40,241,40,241,45,189,45"/>
+</map>

@@ -1,0 +1,44 @@
+<map id="R_x" name="R_x">
+<area shape="rect" id="Node000001" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje x." alt="" coords="684,144,729,171"/>
+<area shape="rect" id="Node000002" href="$_nut_mtrix_8cpp.html#a35e586a324741da54bc1e407a5586378" title="Transformation from mean to true equator and equinox." alt="" coords="555,195,634,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="671,176,627,197,624,192,669,171"/>
+<area shape="rect" id="Node000015" href="$_pole_mat_8cpp.html#a9e8ca9a8843618d4765d867df950c695" title="Transformation from pseudo Earth&#45;fixed to Earth&#45;fixed coordinates for a given date." alt="" coords="553,144,636,171"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="668,160,636,160,636,155,668,155"/>
+<area shape="rect" id="Node000017" href="$tests_8cpp.html#aeb989bb321d9b709dda0a090f457d655" title=" " alt="" coords="561,43,628,69"/>
+<area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="678,135,609,72,612,68,681,132"/>
+<area shape="rect" id="Node000003" href="$_accel_8cpp.html#a90a9d07270cea0a2accb38d118fff177" title="Computes the acceleration of an Earth orbiting satellite." alt="" coords="425,195,480,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="540,211,480,211,480,205,540,205"/>
+<area shape="rect" id="Node000010" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="419,144,486,171"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="539,191,485,171,487,166,541,186"/>
+<area shape="rect" id="Node000012" href="$tests_8cpp.html#a084b986277b62c9323d35e8e8f03105b" title=" " alt="" coords="403,335,502,361"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="575,235,544,272,506,311,476,336,472,332,503,307,540,269,571,232"/>
+<area shape="rect" id="Node000013" href="$_var_eqn_8cpp.html#a502bdb5c8e9c335cd3fc942d1816f2e2" title="Computes the variational equations, i.e. the derivative of the state vector and the state transition ..." alt="" coords="421,271,484,297"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="555,231,480,272,478,268,553,227"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#ad6e00c9978210449973a47573878ff32" title=" " alt="" coords="249,233,324,260"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="411,220,325,241,324,235,409,215"/>
+<area shape="rect" id="Node000007" href="$tests_8cpp.html#a9ba4abccdacbc2fbee304e884c7bd9ab" title=" " alt="" coords="221,132,352,159"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="410,195,323,162,325,157,412,190"/>
+<area shape="rect" id="Node000008" href="$tests_8cpp.html#adf1b96c3eae4bca7948d6a066dd14335" title=" " alt="" coords="242,183,331,209"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="410,208,332,202,332,196,410,202"/>
+<area shape="rect" id="Node000009" href="$_e_f_k___g_e_o_s3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Initial Orbit Determination using Gauss and Extended Kalman Filter methods." alt="" coords="262,284,311,311"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="421,233,354,274,313,292,311,287,351,270,419,228"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="103,183,173,209"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="233,231,173,210,174,205,235,226"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,183,55,209"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,199,55,199,55,193,87,193"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="232,167,174,187,173,182,230,162"/>
+<area shape="rect" id="Node000011" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="243,81,330,108"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="404,142,323,111,325,106,406,137"/>
+<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="410,370,368,384,318,394,267,393,243,387,220,376,199,359,182,338,158,292,144,245,138,210,143,209,149,244,163,290,187,335,203,355,222,371,244,382,268,388,318,389,366,379,408,365"/>
+<area shape="poly" id="edge15_Node000013_Node000009" title=" " alt="" coords="406,290,312,298,311,293,405,285"/>
+<area shape="rect" id="Node000014" href="$tests_8cpp.html#a47e267fa98a83e79696470d1b6e67569" title=" " alt="" coords="244,335,329,361"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="407,304,325,336,323,331,405,299"/>
+<area shape="poly" id="edge17_Node000014_Node000005" title=" " alt="" coords="229,331,219,325,192,297,170,265,142,211,147,209,175,262,196,293,223,321,232,327"/>
+<area shape="poly" id="edge19_Node000015_Node000003" title=" " alt="" coords="542,179,481,201,479,196,540,174"/>
+<area shape="poly" id="edge20_Node000015_Node000010" title=" " alt="" coords="537,160,486,160,486,155,537,155"/>
+<area shape="poly" id="edge23_Node000015_Node000013" title=" " alt="" coords="558,182,554,185,530,209,507,235,470,272,466,268,503,231,526,205,551,181,555,177"/>
+<area shape="rect" id="Node000016" href="$tests_8cpp.html#ac11d7cb7e8df2c0153be4f8eb67174bf" title=" " alt="" coords="400,61,505,88"/>
+<area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="556,138,476,91,479,86,558,134"/>
+<area shape="poly" id="edge22_Node000016_Node000005" title=" " alt="" coords="390,60,350,54,307,52,263,57,222,72,193,95,171,126,155,157,146,183,141,181,150,155,166,123,189,91,220,67,262,51,307,46,351,48,391,55"/>
+<area shape="poly" id="edge25_Node000017_Node000005" title=" " alt="" coords="546,41,478,22,394,9,349,8,305,13,262,24,222,42,204,56,189,73,166,112,152,152,144,183,139,182,147,150,161,110,185,70,201,52,220,38,260,19,304,8,349,3,394,4,479,17,547,36"/>
+</map>

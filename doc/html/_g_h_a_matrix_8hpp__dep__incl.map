@@ -1,0 +1,26 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/GHAMatrix.hpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/GHAMatrix.hpp">
+<area shape="rect" id="Node000001" title="Cabecera GHAMatrix." alt="" coords="612,5,803,64"/>
+<area shape="rect" id="Node000002" href="$_accel_8hpp.html" title="Cabecera Accel." alt="" coords="263,112,454,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="598,71,455,114,453,109,596,66"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html" title=" " alt="" coords="653,219,845,277"/>
+<area shape="poly" id="edge14_Node000001_Node000005" title=" " alt="" coords="718,79,736,170,745,218,740,219,730,171,713,80"/>
+<area shape="rect" id="Node000006" href="$_var_eqn_8hpp.html" title="Cabecera VarEqn." alt="" coords="745,112,937,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="758,72,806,110,803,114,754,76"/>
+<area shape="rect" id="Node000008" href="$anglesg_8hpp.html" title="Cabecera anglesg." alt="" coords="479,112,670,171"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="661,76,612,114,609,110,658,72"/>
+<area shape="rect" id="Node000010" href="$_g_h_a_matrix_8cpp.html" title="Implementación GHAMatrix." alt="" coords="961,112,1153,171"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="819,66,962,109,961,114,817,71"/>
+<area shape="rect" id="Node000003" href="$_accel_8cpp.html" title="Implementación Accel." alt="" coords="5,219,197,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="275,179,172,221,171,216,273,174"/>
+<area shape="rect" id="Node000004" href="$_e_f_k___g_e_o_s3_8cpp.html" title="Metodo main." alt="" coords="437,219,629,277"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="421,177,487,216,484,221,418,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="470,170,654,219,652,224,469,175"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="743,179,618,221,617,216,741,174"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="808,184,776,220,772,217,804,180"/>
+<area shape="rect" id="Node000007" href="$_var_eqn_8cpp.html" title="Implementación VarEqn." alt="" coords="869,219,1061,277"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="888,179,933,216,929,220,885,183"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="560,186,547,219,542,217,555,184"/>
+<area shape="poly" id="edge12_Node000008_Node000005" title=" " alt="" coords="637,177,703,216,700,221,634,181"/>
+<area shape="rect" id="Node000009" href="$anglesg_8cpp.html" title="Implementación anglesg." alt="" coords="221,219,413,277"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="491,179,388,221,387,216,489,174"/>
+</map>

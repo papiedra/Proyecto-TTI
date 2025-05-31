@@ -1,0 +1,15 @@
+<map id="LTC_01" name="LTC_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,72,108"/>
+<area shape="rect" id="Node000002" href="$_l_t_c_8cpp.html#aa960533be8238ffafe85d1e619fc2ba5" title="Transformation from Greenwich meridian system to local tangent coordinates." alt="" coords="136,56,181,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,85,120,75,121,80,72,90"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="120,107,197,133"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="72,99,105,106,104,111,71,104"/>
+<area shape="rect" id="Node000003" href="$_r__y_8cpp.html#aa0e372366355a27f28ad58272b2a9a15" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje y." alt="" coords="245,5,290,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="180,57,230,33,232,38,182,61"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="338,56,392,83"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="181,67,323,67,323,72,181,72"/>
+<area shape="rect" id="Node000005" href="$_r__z_8cpp.html#a6da83e42a1643db663785ca9e7291a79" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje z." alt="" coords="245,107,290,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="182,77,232,101,230,106,180,82"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="292,28,326,46,323,51,290,33"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="290,106,323,88,326,93,292,111"/>
+</map>

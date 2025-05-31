@@ -1,0 +1,31 @@
+<map id="PoleMatrix" name="PoleMatrix">
+<area shape="rect" id="Node000001" title="Transformation from pseudo Earth&#45;fixed to Earth&#45;fixed coordinates for a given date." alt="" coords="553,233,636,260"/>
+<area shape="rect" id="Node000002" href="$_accel_8cpp.html#a90a9d07270cea0a2accb38d118fff177" title="Computes the acceleration of an Earth orbiting satellite." alt="" coords="425,107,480,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="565,225,467,136,471,132,569,221"/>
+<area shape="rect" id="Node000009" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="419,309,486,336"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="558,271,506,300,484,311,481,306,503,295,555,266"/>
+<area shape="rect" id="Node000011" href="$tests_8cpp.html#ac11d7cb7e8df2c0153be4f8eb67174bf" title=" " alt="" coords="400,259,505,285"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="538,259,506,265,505,260,537,254"/>
+<area shape="rect" id="Node000012" href="$_var_eqn_8cpp.html#a502bdb5c8e9c335cd3fc942d1816f2e2" title="Computes the variational equations, i.e. the derivative of the state vector and the state transition ..." alt="" coords="421,208,484,235"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="537,239,484,230,485,224,538,234"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#ad6e00c9978210449973a47573878ff32" title=" " alt="" coords="249,107,324,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="410,123,324,123,324,117,410,117"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a9ba4abccdacbc2fbee304e884c7bd9ab" title=" " alt="" coords="221,56,352,83"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="410,110,332,86,333,81,411,105"/>
+<area shape="rect" id="Node000007" href="$tests_8cpp.html#adf1b96c3eae4bca7948d6a066dd14335" title=" " alt="" coords="242,5,331,32"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="423,98,390,72,351,46,327,35,330,30,354,42,393,67,426,94"/>
+<area shape="rect" id="Node000008" href="$_e_f_k___g_e_o_s3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Initial Orbit Determination using Gauss and Extended Kalman Filter methods." alt="" coords="262,157,311,184"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="411,135,312,166,311,161,410,130"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="103,157,173,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="235,140,174,161,173,156,233,135"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,157,55,184"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,173,55,173,55,168,87,168"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="231,92,222,97,183,128,153,159,149,155,179,124,220,92,228,87"/>
+<area shape="rect" id="Node000010" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="243,309,330,336"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="404,325,331,325,331,320,404,320"/>
+<area shape="poly" id="edge12_Node000011_Node000004" title=" " alt="" coords="385,278,304,273,261,264,220,249,197,236,177,219,147,186,151,182,180,215,200,231,222,244,262,259,305,267,385,273"/>
+<area shape="poly" id="edge14_Node000012_Node000008" title=" " alt="" coords="405,210,311,181,312,175,407,205"/>
+<area shape="rect" id="Node000013" href="$tests_8cpp.html#a47e267fa98a83e79696470d1b6e67569" title=" " alt="" coords="244,208,329,235"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="405,224,329,224,329,219,405,219"/>
+<area shape="poly" id="edge16_Node000013_Node000004" title=" " alt="" coords="230,205,173,185,174,180,232,200"/>
+</map>

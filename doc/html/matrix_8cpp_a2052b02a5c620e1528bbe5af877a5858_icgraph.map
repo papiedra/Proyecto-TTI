@@ -1,0 +1,32 @@
+<map id="union_vector" name="union_vector">
+<area shape="rect" id="Node000001" title="Concatenar dos vectores." alt="" coords="765,132,860,159"/>
+<area shape="rect" id="Node000002" href="$_accel_8cpp.html#a90a9d07270cea0a2accb38d118fff177" title="Computes the acceleration of an Earth orbiting satellite." alt="" coords="447,132,501,159"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="750,148,502,148,502,143,750,143"/>
+<area shape="rect" id="Node000008" href="$_e_f_k___g_e_o_s3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Initial Orbit Determination using Gauss and Extended Kalman Filter methods." alt="" coords="262,233,311,260"/>
+<area shape="poly" id="edge17_Node000001_Node000008" title=" " alt="" coords="750,159,401,224,312,244,311,238,400,219,749,153"/>
+<area shape="rect" id="Node000009" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="623,233,690,260"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="784,170,718,217,687,235,684,230,716,212,781,166"/>
+<area shape="rect" id="Node000011" href="$_j_p_l___e_p_h___d_e430_8cpp.html#afaa3d88062cc92fdf1f1f374da598c6f" title="Computes the sun, moon, and nine major planets&#39; equatorial position using JPL Ephemerides." alt="" coords="596,81,717,108"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="754,129,699,111,701,106,756,124"/>
+<area shape="rect" id="Node000013" href="$tests_8cpp.html#ad50ef07c36865926910b20f16395b3ed" title=" " alt="" coords="611,5,702,32"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="782,124,673,35,676,30,785,120"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#ad6e00c9978210449973a47573878ff32" title=" " alt="" coords="249,132,324,159"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,148,325,148,325,143,431,143"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a9ba4abccdacbc2fbee304e884c7bd9ab" title=" " alt="" coords="221,183,352,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="432,159,340,185,338,179,431,154"/>
+<area shape="rect" id="Node000007" href="$tests_8cpp.html#adf1b96c3eae4bca7948d6a066dd14335" title=" " alt="" coords="242,81,331,108"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="431,137,331,109,333,104,432,132"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="433,163,402,180,378,201,354,224,313,242,311,237,351,219,375,198,399,175,431,158"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="103,81,173,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="233,130,173,109,174,104,235,125"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,81,55,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,97,55,97,55,92,87,92"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="228,178,220,173,179,141,149,110,153,106,183,137,222,168,231,173"/>
+<area shape="rect" id="Node000010" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="430,233,518,260"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="608,249,518,249,518,244,608,244"/>
+<area shape="poly" id="edge12_Node000011_Node000002" title=" " alt="" coords="591,115,502,141,501,135,590,110"/>
+<area shape="rect" id="Node000012" href="$tests_8cpp.html#abf7a5dc0dec7026c1698ebc45f116357" title=" " alt="" coords="400,56,548,83"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="580,87,548,82,548,77,581,81"/>
+<area shape="poly" id="edge14_Node000012_Node000004" title=" " alt="" coords="385,66,305,65,221,72,174,84,173,79,221,67,305,60,385,60"/>
+<area shape="poly" id="edge16_Node000013_Node000004" title=" " alt="" coords="595,17,519,14,425,16,322,27,222,49,187,65,158,83,155,79,185,60,220,44,321,22,424,11,519,9,595,11"/>
+</map>

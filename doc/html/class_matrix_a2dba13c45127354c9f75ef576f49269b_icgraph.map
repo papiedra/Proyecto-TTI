@@ -1,0 +1,23 @@
+<map id="Matrix::Matrix" name="Matrix::Matrix">
+<area shape="rect" id="Node000001" title="Construct a new Matrix:: Matrix object sin filas ni columnas." alt="" coords="182,233,283,260"/>
+<area shape="rect" id="Node000002" href="$class_matrix.html#afea45c71e5918b52ac513c4b721d0bca" title="Multiplicar por un número a una matriz." alt="" coords="11,5,128,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,219,210,181,192,134,166,87,132,46,116,35,119,30,135,42,170,84,197,132,215,179,227,218"/>
+<area shape="rect" id="Node000003" href="$class_matrix.html#ae1bc7e1fda06dab52353ac01b3196efd" title="Producto de matrices." alt="" coords="11,56,128,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,221,184,159,160,126,132,97,114,85,117,81,135,93,165,122,189,156,222,218"/>
+<area shape="rect" id="Node000004" href="$class_matrix.html#a024f7dc3499bfc798ea005dfac62844b" title="Sumar un número a una matriz." alt="" coords="9,107,130,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,223,175,184,132,148,111,136,114,132,135,143,179,181,213,219"/>
+<area shape="rect" id="Node000005" href="$class_matrix.html#a7cc7127ce96c997c9d14f1f8874ed742" title="Suma de matrices." alt="" coords="9,157,130,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="192,228,133,198,106,187,108,182,135,194,194,223"/>
+<area shape="rect" id="Node000006" href="$class_matrix.html#a50266dda3a53c8e69fe382e744080375" title="Restar un número a una matriz." alt="" coords="11,208,128,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="166,239,127,233,128,228,167,234"/>
+<area shape="rect" id="Node000007" href="$class_matrix.html#ac13e11282bf8fb3e88eb4e743c6dc019" title="Resta de matrices." alt="" coords="11,259,128,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="167,260,128,266,127,260,166,254"/>
+<area shape="rect" id="Node000008" href="$class_matrix.html#a0682d747da6267e35d1a5bd88eb32857" title="Dividir por un número a una matriz." alt="" coords="11,309,128,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="194,270,135,300,108,311,106,306,133,295,192,265"/>
+<area shape="rect" id="Node000009" href="$class_matrix.html#afa8805316703c98abf5fefd7788b92ef" title="Divisiónde matrices." alt="" coords="11,360,128,387"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="213,274,179,313,135,350,114,362,111,357,132,346,175,309,209,271"/>
+<area shape="rect" id="Node000010" href="$class_matrix.html#a6ce0bc529fe2ee6fb2d0eb8acbdc1e92" title="Para mostrar matrices." alt="" coords="5,411,134,437"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="222,275,189,338,165,371,135,401,117,412,114,408,132,397,160,368,184,335,217,273"/>
+<area shape="rect" id="Node000011" href="$class_matrix.html#ade03836bffb81664225dc544b5d5e6db" title="Asignar matrices." alt="" coords="9,461,130,488"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="227,276,215,315,197,361,170,409,135,451,119,463,116,458,132,447,166,406,192,359,210,313,222,274"/>
+</map>

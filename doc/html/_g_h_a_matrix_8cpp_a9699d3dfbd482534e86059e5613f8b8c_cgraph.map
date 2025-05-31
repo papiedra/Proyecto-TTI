@@ -1,0 +1,19 @@
+<map id="GHAMatrix" name="GHAMatrix">
+<area shape="rect" id="Node000001" title="Transformation from true equator and equinox to Earth equator and Greenwich meridian system." alt="" coords="5,105,92,132"/>
+<area shape="rect" id="Node000002" href="$gast_8cpp.html#a4eb2d09c87615520077aec1005b8e0ad" title="Greenwich Apparent Sidereal Time." alt="" coords="140,80,186,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,106,124,99,125,104,93,112"/>
+<area shape="rect" id="Node000008" href="$_r__z_8cpp.html#a6da83e42a1643db663785ca9e7291a79" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje z." alt="" coords="140,131,186,157"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="93,126,126,133,124,138,91,131"/>
+<area shape="rect" id="Node000003" href="$_eqn_equinox_8cpp.html#a1178917cf376ea4f15cea33c59028635" title="Computation of the equation of the equinoxes." alt="" coords="234,5,325,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,77,233,42,239,38,242,42,235,46,184,82"/>
+<area shape="rect" id="Node000007" href="$gmst_8cpp.html#a22a9ee5ea799a7511f4b5b1939c9de76" title="Greenwich Mean Sidereal Time." alt="" coords="254,80,305,107"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="186,91,239,91,239,96,186,96"/>
+<area shape="rect" id="Node000004" href="$_mean_obliquity_8cpp.html#a11f057ac4e8a0c5a7958f77379e30d40" title="Computes the mean obliquity of the ecliptic." alt="" coords="373,5,478,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="326,16,358,16,358,21,326,21"/>
+<area shape="rect" id="Node000005" href="$_nut_angles_8cpp.html#a1f36b78299f88037fd7ccd7a66cafeb7" title="Nutation in longitude and obliquity." alt="" coords="384,68,467,95"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="314,30,380,59,378,64,312,35"/>
+<area shape="rect" id="Node000006" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="526,93,579,120"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="468,87,511,96,510,101,467,92"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="259,81,255,71,258,62,266,56,280,53,294,56,302,63,299,67,292,61,280,59,268,61,262,65,260,71,264,79"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="186,139,510,108,511,113,186,145"/>
+</map>

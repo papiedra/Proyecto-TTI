@@ -1,0 +1,89 @@
+<map id="AccelHarmonic_01" name="AccelHarmonic_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,212,137,239"/>
+<area shape="rect" id="Node000002" href="$_accel_8cpp.html#a90a9d07270cea0a2accb38d118fff177" title="Computes the acceleration of an Earth orbiting satellite." alt="" coords="196,313,250,340"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,237,191,302,188,307,91,241"/>
+<area shape="rect" id="Node000003" href="$_accel_harmonic_8cpp.html#a1b0ac5e7fcfc2586b662a222954f6d53" title="Computes the acceleration due to the harmonic gravity field of the central body." alt="" coords="316,9,426,36"/>
+<area shape="poly" id="edge54_Node000001_Node000003" title=" " alt="" coords="80,210,122,159,151,130,183,103,247,66,311,39,313,44,250,71,186,108,155,134,126,163,84,213"/>
+<area shape="rect" id="Node000007" href="$matrix_8cpp.html#acbd9778b697f9ad3da64ef53b850e2c9" title="Trasponer una matriz." alt="" coords="495,111,574,137"/>
+<area shape="poly" id="edge56_Node000001_Node000007" title=" " alt="" coords="129,209,309,167,480,132,481,137,311,172,130,214"/>
+<area shape="rect" id="Node000031" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="185,364,262,391"/>
+<area shape="poly" id="edge55_Node000001_Node000031" title=" " alt="" coords="85,238,127,289,186,350,189,353,186,357,183,354,123,293,81,241"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,313,226,264,238,194,249,155,264,116,283,79,308,46,311,43,315,47,312,50,288,82,269,118,254,157,244,195,231,265,228,313"/>
+<area shape="poly" id="edge52_Node000002_Node000007" title=" " alt="" coords="230,311,261,266,283,240,308,217,350,189,396,167,479,136,481,141,398,172,353,194,312,221,287,244,265,269,235,314"/>
+<area shape="rect" id="Node000008" href="$_accel_point_mass_8cpp.html#a72b636f377c135454d41655c935c0eb3" title="Computes the perturbational acceleration due to a point mass." alt="" coords="312,60,429,87"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="228,312,260,243,308,155,347,98,352,101,312,157,265,246,233,314"/>
+<area shape="rect" id="Node000009" href="$matrix_8cpp.html#a5993d6cfc4d33d6c5d8bc3ffeb8362db" title="Extaer un vector de otro." alt="" coords="482,465,587,492"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="252,339,264,350,276,372,282,394,283,434,287,470,295,486,312,502,332,513,355,520,403,521,450,511,491,496,493,501,452,516,403,526,354,525,330,518,308,506,291,489,282,471,278,434,277,394,271,374,260,354,248,342"/>
+<area shape="rect" id="Node000010" href="$_g_h_a_matrix_8cpp.html#a9699d3dfbd482534e86059e5613f8b8c" title="Transformation from true equator and equinox to Earth equator and Greenwich meridian system." alt="" coords="328,567,414,593"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="252,339,264,350,279,378,286,403,287,451,289,497,297,521,312,546,322,556,318,560,308,550,292,523,284,498,282,451,281,404,274,380,260,354,249,342"/>
+<area shape="rect" id="Node000017" href="$_i_e_r_s_8cpp.html#ad828cfafc8c8c428e783a4271ac05da1" title="Management of IERS time and polar motion data." alt="" coords="344,313,397,340"/>
+<area shape="poly" id="edge21_Node000002_Node000017" title=" " alt="" coords="251,324,329,324,329,329,251,329"/>
+<area shape="rect" id="Node000020" href="$_j_p_l___e_p_h___d_e430_8cpp.html#afaa3d88062cc92fdf1f1f374da598c6f" title="Computes the sun, moon, and nine major planets&#39; equatorial position using JPL Ephemerides." alt="" coords="310,364,431,391"/>
+<area shape="poly" id="edge24_Node000002_Node000020" title=" " alt="" coords="252,333,316,356,315,361,250,338"/>
+<area shape="rect" id="Node000023" href="$matrix_8cpp.html#a2052b02a5c620e1528bbe5af877a5858" title="Concatenar dos vectores." alt="" coords="487,212,582,239"/>
+<area shape="poly" id="edge53_Node000002_Node000023" title=" " alt="" coords="233,311,264,279,285,262,309,248,350,234,392,225,471,220,472,225,393,231,351,239,311,253,288,266,268,283,237,315"/>
+<area shape="rect" id="Node000024" href="$_mjday___t_b_d_8cpp.html#aa43638c07ef5c9eee63098c155d99a1e" title="Computes the Modified Julian Date for barycentric dynamical time." alt="" coords="326,263,416,289"/>
+<area shape="poly" id="edge33_Node000002_Node000024" title=" " alt="" coords="250,315,315,292,316,297,252,320"/>
+<area shape="rect" id="Node000025" href="$_nut_mtrix_8cpp.html#a35e586a324741da54bc1e407a5586378" title="Transformation from mean to true equator and equinox." alt="" coords="644,556,722,583"/>
+<area shape="poly" id="edge34_Node000002_Node000025" title=" " alt="" coords="249,339,264,350,287,377,297,388,311,401,344,416,373,423,402,431,433,451,444,465,451,479,456,506,462,531,469,542,481,553,516,569,554,578,593,579,629,577,629,582,593,585,554,583,514,574,478,557,465,545,457,533,451,507,446,481,440,468,430,455,400,436,372,428,342,422,309,405,293,392,283,380,260,354,245,343"/>
+<area shape="rect" id="Node000027" href="$_pole_mat_8cpp.html#a9e8ca9a8843618d4765d867df950c695" title="Transformation from pseudo Earth&#45;fixed to Earth&#45;fixed coordinates for a given date." alt="" coords="642,743,725,769"/>
+<area shape="poly" id="edge41_Node000002_Node000027" title=" " alt="" coords="253,339,264,351,285,397,291,442,287,484,280,525,273,564,273,603,284,642,296,661,312,681,345,709,384,730,425,745,469,755,554,763,626,760,627,766,554,768,468,761,424,751,382,735,342,714,308,685,291,664,279,644,268,604,268,564,275,524,282,483,286,442,280,399,260,354,249,342"/>
+<area shape="rect" id="Node000029" href="$_prec_mat_8cpp.html#ab3355540b4a56fae8403b3c0ad8c1391" title="Precession transformation of equatorial coordinates." alt="" coords="648,692,718,719"/>
+<area shape="poly" id="edge46_Node000002_Node000029" title=" " alt="" coords="253,339,264,351,281,386,288,420,287,452,283,483,280,514,281,543,291,573,312,604,346,634,386,658,429,675,474,688,561,702,633,705,633,710,560,707,473,694,427,680,384,662,343,638,308,607,286,576,276,544,274,514,278,483,282,452,282,420,276,388,260,354,249,342"/>
+<area shape="rect" id="Node000030" href="$timediff_8cpp.html#af682e7300b67977f98743438a63dd532" title=" " alt="" coords="339,465,402,492"/>
+<area shape="poly" id="edge51_Node000002_Node000030" title=" " alt="" coords="251,339,264,350,280,376,288,399,295,421,312,445,327,457,324,461,308,449,291,424,283,401,276,378,260,354,247,343"/>
+<area shape="rect" id="Node000004" href="$_legendre_8cpp.html#a6559a84b5d8e8fc375a1b7b038bf85ae" title="Computes the Legendre polynomials and their derivatives." alt="" coords="794,136,864,163"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="427,22,505,29,590,45,646,63,700,84,790,126,788,131,698,89,644,68,589,51,504,35,426,27"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="929,543,983,569"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="426,11,527,3,589,4,653,10,718,23,780,45,836,77,861,98,884,123,901,155,916,201,937,317,950,437,956,527,951,528,945,437,932,318,911,202,896,157,879,126,857,102,833,82,778,49,717,28,652,15,588,9,527,9,426,17"/>
+<area shape="rect" id="Node000006" href="$matrix_8cpp.html#a907c9c6f53fc52d17e86b507b156536f" title="Norma de una matriz." alt="" coords="509,60,560,87"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="417,34,495,59,494,64,416,39"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="412,34,433,46,448,59,458,72,467,84,481,97,487,101,484,105,478,101,463,87,453,75,444,63,430,50,410,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="838,163,884,307,949,527,944,529,879,309,833,164"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="429,71,494,71,494,76,429,76"/>
+<area shape="rect" id="Node000011" href="$gast_8cpp.html#a4eb2d09c87615520077aec1005b8e0ad" title="Greenwich Apparent Sidereal Time." alt="" coords="511,516,558,543"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="414,564,496,538,497,543,415,569"/>
+<area shape="rect" id="Node000016" href="$_r__z_8cpp.html#a6da83e42a1643db663785ca9e7291a79" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje z." alt="" coords="806,593,852,620"/>
+<area shape="poly" id="edge19_Node000010_Node000016" title=" " alt="" coords="415,586,480,596,654,605,791,605,791,610,653,611,479,601,414,592"/>
+<area shape="rect" id="Node000012" href="$_eqn_equinox_8cpp.html#a1178917cf376ea4f15cea33c59028635" title="Computation of the equation of the equinoxes." alt="" coords="638,496,729,523"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="558,524,622,515,623,520,558,529"/>
+<area shape="rect" id="Node000015" href="$gmst_8cpp.html#a22a9ee5ea799a7511f4b5b1939c9de76" title="Greenwich Mean Sidereal Time." alt="" coords="658,445,708,472"/>
+<area shape="poly" id="edge17_Node000011_Node000015" title=" " alt="" coords="557,517,589,502,643,475,645,480,591,506,559,522"/>
+<area shape="rect" id="Node000013" href="$_mean_obliquity_8cpp.html#a11f057ac4e8a0c5a7958f77379e30d40" title="Computes the mean obliquity of the ecliptic." alt="" coords="777,492,881,519"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="729,505,761,505,762,510,730,511"/>
+<area shape="rect" id="Node000014" href="$_nut_angles_8cpp.html#a1f36b78299f88037fd7ccd7a66cafeb7" title="Nutation in longitude and obliquity." alt="" coords="788,441,870,468"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="720,493,776,472,778,477,722,498"/>
+<area shape="poly" id="edge16_Node000014_Node000005" title=" " alt="" coords="864,466,883,478,912,503,936,529,932,533,908,507,880,482,861,471"/>
+<area shape="poly" id="edge18_Node000015_Node000015" title=" " alt="" coords="658,446,653,437,656,427,667,421,683,419,701,421,711,428,708,432,699,426,683,424,668,426,661,431,659,436,663,444"/>
+<area shape="poly" id="edge20_Node000016_Node000005" title=" " alt="" coords="851,595,914,570,916,575,853,600"/>
+<area shape="rect" id="Node000018" href="$matrix_8cpp.html#a97f57f3cda66bf87b11d7a67e9998030" title="Extraer una columna de una matriz." alt="" coords="479,161,590,188"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="396,318,414,310,429,300,447,275,453,250,460,225,477,198,481,195,484,199,481,202,464,227,458,252,451,277,433,303,416,315,398,323"/>
+<area shape="rect" id="Node000019" href="$matrix_8cpp.html#a34744ec1ee4339cefe35aaf2df4cc754" title="Extraer una fila de una matriz." alt="" coords="490,263,579,289"/>
+<area shape="poly" id="edge23_Node000017_Node000019" title=" " alt="" coords="397,316,475,292,476,297,399,321"/>
+<area shape="poly" id="edge32_Node000020_Node000005" title=" " alt="" coords="432,374,542,375,674,382,798,398,847,411,883,427,907,449,926,475,949,527,944,529,921,478,903,452,880,432,845,416,797,403,674,387,542,381,432,379"/>
+<area shape="poly" id="edge30_Node000020_Node000007" title=" " alt="" coords="416,362,429,350,446,325,453,300,455,276,453,251,453,201,461,175,477,148,481,144,485,148,481,151,465,177,458,202,458,251,460,276,458,301,451,327,433,354,419,366"/>
+<area shape="poly" id="edge28_Node000020_Node000009" title=" " alt="" coords="403,389,433,407,457,430,481,451,488,456,485,460,478,456,453,434,430,412,400,394"/>
+<area shape="poly" id="edge27_Node000020_Node000019" title=" " alt="" coords="409,361,430,350,454,329,478,306,493,296,496,300,481,310,458,333,433,354,411,366"/>
+<area shape="rect" id="Node000021" href="$_cheb3_d_8cpp.html#a05a110559834c211c7a7eeac28dd8246" title="Chebyshev approximation of 3&#45;dimensional vectors." alt="" coords="649,313,718,340"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="431,364,479,356,633,332,634,337,480,361,432,370"/>
+<area shape="rect" id="Node000022" href="$_j_p_l___e_p_h___d_e430_8cpp.html#aa710c3e30f25f8ae9b570e7c711eb95a" title="Toma el rango de enteros de start a end con espacio skip." alt="" coords="508,415,561,441"/>
+<area shape="poly" id="edge29_Node000020_Node000022" title=" " alt="" coords="417,389,494,413,492,418,416,394"/>
+<area shape="poly" id="edge31_Node000020_Node000023" title=" " alt="" coords="414,361,429,350,447,326,453,301,460,275,477,249,481,246,484,250,481,252,464,278,458,302,451,328,433,354,417,366"/>
+<area shape="poly" id="edge26_Node000021_Node000005" title=" " alt="" coords="718,320,755,319,799,323,843,334,883,357,901,375,916,395,937,442,950,488,955,527,950,528,944,489,932,443,911,398,897,378,880,361,841,339,798,328,755,324,718,325"/>
+<area shape="poly" id="edge40_Node000025_Node000005" title=" " alt="" coords="723,565,914,555,914,561,723,570"/>
+<area shape="poly" id="edge35_Node000025_Node000013" title=" " alt="" coords="715,553,782,523,784,528,717,558"/>
+<area shape="poly" id="edge36_Node000025_Node000014" title=" " alt="" coords="702,554,727,533,750,505,775,478,781,474,784,478,779,482,754,508,731,537,706,558"/>
+<area shape="poly" id="edge39_Node000025_Node000016" title=" " alt="" coords="724,577,792,595,790,600,722,582"/>
+<area shape="rect" id="Node000026" href="$_r__x_8cpp.html#a9ddfb0a29d5d5a665c90840e28d0f9e8" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje x." alt="" coords="806,695,852,721"/>
+<area shape="poly" id="edge37_Node000025_Node000026" title=" " alt="" coords="701,581,805,682,801,686,697,585"/>
+<area shape="poly" id="edge38_Node000026_Node000005" title=" " alt="" coords="851,695,879,674,915,628,940,582,945,585,919,631,883,678,854,699"/>
+<area shape="poly" id="edge45_Node000027_Node000005" title=" " alt="" coords="711,768,747,784,792,796,838,798,860,793,880,782,901,762,917,739,930,713,939,685,950,630,953,585,958,585,955,631,945,687,935,715,922,742,905,766,883,786,862,798,839,803,791,801,745,789,709,772"/>
+<area shape="poly" id="edge42_Node000027_Node000026" title=" " alt="" coords="724,740,791,718,793,723,726,745"/>
+<area shape="rect" id="Node000028" href="$_r__y_8cpp.html#aa0e372366355a27f28ad58272b2a9a15" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje y." alt="" coords="806,745,852,772"/>
+<area shape="poly" id="edge43_Node000027_Node000028" title=" " alt="" coords="725,754,791,755,791,761,725,760"/>
+<area shape="poly" id="edge44_Node000028_Node000005" title=" " alt="" coords="851,749,866,742,879,732,905,696,925,656,947,584,952,585,930,658,910,699,883,735,869,746,854,754"/>
+<area shape="poly" id="edge50_Node000029_Node000005" title=" " alt="" coords="718,695,795,671,839,653,880,630,909,606,933,580,937,583,913,610,883,634,841,658,797,676,720,700"/>
+<area shape="poly" id="edge49_Node000029_Node000016" title=" " alt="" coords="702,689,775,637,791,626,794,631,779,641,705,694"/>
+<area shape="poly" id="edge48_Node000029_Node000028" title=" " alt="" coords="720,716,792,743,791,748,718,721"/>
+<area shape="poly" id="edge47_Node000029_Node000029" title=" " alt="" coords="658,693,653,683,656,674,667,668,683,665,701,668,711,675,708,679,699,673,683,671,668,673,661,677,659,683,663,690"/>
+</map>

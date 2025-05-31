@@ -1,0 +1,9 @@
+<map id="real_poly_roots" name="real_poly_roots">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,115,83"/>
+<area shape="rect" id="Node000002" href="$rpoly_8cpp.html#a0db139afe7587e0362614a7f16b84180" title=" " alt="" coords="192,5,300,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,53,179,34,181,39,113,58"/>
+<area shape="rect" id="Node000003" href="$rpoly_8cpp.html#a532a23bdc8f92a332dccb59661be5db5" title="Releases the memory allocated for an RPoly_State structure." alt="" coords="185,56,307,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,67,170,67,170,72,115,72"/>
+<area shape="rect" id="Node000004" href="$rpoly_8hpp.html#aa12a3d2f8789a12e36515f664e96439a" title=" " alt="" coords="163,107,329,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,81,181,100,179,105,111,86"/>
+</map>

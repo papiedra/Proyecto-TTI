@@ -1,0 +1,23 @@
+<map id="GHAMatrix_01" name="GHAMatrix_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,131,113,157"/>
+<area shape="rect" id="Node000002" href="$_g_h_a_matrix_8cpp.html#a9699d3dfbd482534e86059e5613f8b8c" title="Transformation from true equator and equinox to Earth equator and Greenwich meridian system." alt="" coords="161,105,247,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,132,145,126,146,132,114,137"/>
+<area shape="rect" id="Node000010" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="165,156,242,183"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="114,151,150,157,149,163,113,156"/>
+<area shape="rect" id="Node000003" href="$gast_8cpp.html#a4eb2d09c87615520077aec1005b8e0ad" title="Greenwich Apparent Sidereal Time." alt="" coords="295,80,341,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="247,106,279,99,280,104,248,112"/>
+<area shape="rect" id="Node000009" href="$_r__z_8cpp.html#a6da83e42a1643db663785ca9e7291a79" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje z." alt="" coords="296,131,341,157"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="248,126,281,133,280,138,247,131"/>
+<area shape="rect" id="Node000004" href="$_eqn_equinox_8cpp.html#a1178917cf376ea4f15cea33c59028635" title="Computation of the equation of the equinoxes." alt="" coords="389,5,481,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,77,388,42,394,38,397,42,391,46,340,82"/>
+<area shape="rect" id="Node000008" href="$gmst_8cpp.html#a22a9ee5ea799a7511f4b5b1939c9de76" title="Greenwich Mean Sidereal Time." alt="" coords="410,80,460,107"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="342,91,394,91,394,96,342,96"/>
+<area shape="rect" id="Node000005" href="$_mean_obliquity_8cpp.html#a11f057ac4e8a0c5a7958f77379e30d40" title="Computes the mean obliquity of the ecliptic." alt="" coords="529,5,633,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="481,16,513,16,513,21,481,21"/>
+<area shape="rect" id="Node000006" href="$_nut_angles_8cpp.html#a1f36b78299f88037fd7ccd7a66cafeb7" title="Nutation in longitude and obliquity." alt="" coords="540,68,622,95"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="469,30,535,59,533,64,467,35"/>
+<area shape="rect" id="Node000007" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="681,93,734,120"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="623,87,666,96,665,101,622,92"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="414,81,410,71,413,62,421,56,435,53,450,56,457,63,454,67,447,61,435,59,423,61,417,65,416,71,419,79"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="341,139,666,108,666,113,342,145"/>
+</map>

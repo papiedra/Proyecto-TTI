@@ -1,0 +1,30 @@
+<map id="cross" name="cross">
+<area shape="rect" id="Node000001" title="Producto Vectorial." alt="" coords="522,132,575,159"/>
+<area shape="rect" id="Node000002" href="$elements_8cpp.html#a2628736c6f909f3cd2f71bce278c1cfb" title="Computes the osculating Keplerian elements from the satellite state vector for elliptic orbits." alt="" coords="390,56,465,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="514,125,472,97,453,85,456,81,475,92,517,121"/>
+<area shape="rect" id="Node000008" href="$gibbs_8cpp.html#a579ddb809b4d4a061b4ac155a3a6f80a" title="Transformation from true equator and equinox to Earth equator and Greenwich meridian system this func..." alt="" coords="401,107,454,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="506,139,453,128,455,123,507,134"/>
+<area shape="rect" id="Node000010" href="$hgibbs_8cpp.html#a1db91908c4316a75b6fa095eaabaf3e4" title="this function implements the herrick&#45;gibbs approximation for orbit determination, and finds the middl..." alt="" coords="398,157,457,184"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="507,157,458,167,457,162,506,151"/>
+<area shape="rect" id="Node000012" href="$tests_8cpp.html#a92c4710d9227d409c39924406966293a" title=" " alt="" coords="381,208,474,235"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="517,170,475,198,456,210,453,205,472,194,514,166"/>
+<area shape="rect" id="Node000003" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="252,56,319,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,72,319,72,319,67,375,67"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#a0e221d0fb85708adff3646b7b78d1b2e" title=" " alt="" coords="238,5,333,32"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="375,53,324,35,326,30,377,48"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="103,56,190,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,72,190,72,190,67,237,67"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="111,132,182,159"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="244,43,240,46,201,86,161,133,157,130,198,82,236,42,241,38"/>
+<area shape="rect" id="Node000007" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,132,55,159"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="96,148,55,148,55,143,96,143"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="386,108,318,83,320,78,388,103"/>
+<area shape="rect" id="Node000009" href="$tests_8cpp.html#afa20f97f25cbb17232e9ad66fba7111b" title=" " alt="" coords="249,107,322,133"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="386,123,323,123,323,117,386,117"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="234,132,182,142,181,136,233,127"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="384,151,380,147,355,122,332,97,314,85,317,81,335,93,359,118,383,143,388,147"/>
+<area shape="rect" id="Node000011" href="$tests_8cpp.html#a5f3d17ff5c5b55e29c2d33907af1ddb4" title=" " alt="" coords="246,157,326,184"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="382,173,326,173,326,168,382,168"/>
+<area shape="poly" id="edge14_Node000011_Node000006" title=" " alt="" coords="230,163,181,154,182,149,231,158"/>
+<area shape="poly" id="edge16_Node000012_Node000006" title=" " alt="" coords="366,222,303,214,237,199,198,181,166,161,168,157,201,176,239,193,304,209,366,216"/>
+</map>

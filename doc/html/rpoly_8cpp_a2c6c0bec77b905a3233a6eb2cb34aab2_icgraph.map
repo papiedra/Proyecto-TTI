@@ -1,0 +1,10 @@
+<map id="rpoly_newest" name="rpoly_newest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="571,13,670,40"/>
+<area shape="rect" id="Node000002" href="$rpoly_8cpp.html#aa5ba08f89089ce0003bccbb3d129cab9" title=" " alt="" coords="220,5,384,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="556,29,384,29,384,24,556,24"/>
+<area shape="rect" id="Node000004" href="$rpoly_8cpp.html#a0c8378afa89722a60368dd4db66d8eef" title=" " alt="" coords="432,39,523,65"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="557,41,524,47,523,41,556,35"/>
+<area shape="rect" id="Node000003" href="$rpoly_8cpp.html#af09c0354f5c263de0a96c44dc0624210" title=" " alt="" coords="5,13,172,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,29,172,29,172,24,204,24"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="416,46,384,41,385,36,417,41"/>
+</map>

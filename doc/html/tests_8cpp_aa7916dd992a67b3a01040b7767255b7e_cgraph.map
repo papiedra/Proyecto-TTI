@@ -1,0 +1,11 @@
+<map id="EqnEquinox_01" name="EqnEquinox_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,118,57"/>
+<area shape="rect" id="Node000002" href="$_eqn_equinox_8cpp.html#a1178917cf376ea4f15cea33c59028635" title="Computation of the equation of the equinoxes." alt="" coords="166,31,257,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,41,150,41,150,47,118,47"/>
+<area shape="rect" id="Node000003" href="$_mean_obliquity_8cpp.html#a11f057ac4e8a0c5a7958f77379e30d40" title="Computes the mean obliquity of the ecliptic." alt="" coords="305,5,409,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,33,289,28,290,33,258,39"/>
+<area shape="rect" id="Node000004" href="$_nut_angles_8cpp.html#a1f36b78299f88037fd7ccd7a66cafeb7" title="Nutation in longitude and obliquity." alt="" coords="316,56,398,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="258,49,301,57,300,62,257,55"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="457,56,511,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="399,67,442,67,442,72,399,72"/>
+</map>

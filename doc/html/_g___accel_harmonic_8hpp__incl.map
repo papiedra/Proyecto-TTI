@@ -1,0 +1,18 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/G_AccelHarmonic.hpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/G_AccelHarmonic.hpp">
+<area shape="rect" id="Node000001" title="Cabecera AccelHarmonic." alt="" coords="46,5,238,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,261,63,288"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,66,56,87,36,113,25,147,22,182,24,216,29,245,24,246,19,217,17,182,20,146,32,111,53,83,80,62"/>
+<area shape="rect" id="Node000003" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="119,187,258,213"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,62,231,83,252,111,256,130,250,148,237,165,222,179,219,175,233,161,245,146,251,130,248,113,228,87,201,66"/>
+<area shape="rect" id="Node000007" href="$_accel_harmonic_8hpp.html" title="Cabecera AccelHarmonic." alt="" coords="46,112,238,139"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="145,64,145,96,139,96,139,64"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="163,216,76,257,74,252,161,211"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="87,261,144,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="178,216,141,252,137,248,174,212"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="167,261,226,288"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="193,214,196,245,191,246,187,214"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="250,261,322,288"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="207,212,259,250,256,254,204,216"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="135,141,54,250,50,247,131,138"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="152,138,175,172,170,175,148,141"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/AccelHarmonic.hpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/include/AccelHarmonic.hpp">
+<area shape="rect" id="Node000001" title="Cabecera AccelHarmonic." alt="" coords="571,5,762,64"/>
+<area shape="rect" id="Node000002" href="$_accel_8hpp.html" title="Cabecera Accel." alt="" coords="221,219,413,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="603,74,533,114,362,220,360,216,530,110,601,69"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html" title=" " alt="" coords="653,325,845,384"/>
+<area shape="poly" id="edge14_Node000001_Node000005" title=" " alt="" coords="748,69,792,95,838,129,879,170,910,218,920,248,918,263,910,279,882,309,846,330,844,326,878,305,905,276,913,261,914,249,905,220,875,173,834,133,789,100,745,74"/>
+<area shape="rect" id="Node000006" href="$_g___accel_harmonic_8hpp.html" title="Cabecera AccelHarmonic." alt="" coords="571,112,762,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="669,80,669,112,664,112,664,80"/>
+<area shape="rect" id="Node000007" href="$_var_eqn_8hpp.html" title="Cabecera VarEqn." alt="" coords="437,219,629,277"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="599,75,578,93,561,113,548,139,540,167,535,218,530,218,535,166,543,137,556,111,574,89,595,71"/>
+<area shape="rect" id="Node000010" href="$_accel_harmonic_8cpp.html" title="Implementación AccelHarmonic." alt="" coords="971,112,1162,171"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="778,62,971,112,969,118,777,67"/>
+<area shape="rect" id="Node000003" href="$_accel_8cpp.html" title="Implementación Accel." alt="" coords="5,325,197,384"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,287,161,327,159,322,243,282"/>
+<area shape="rect" id="Node000004" href="$_e_f_k___g_e_o_s3_8cpp.html" title="Metodo main." alt="" coords="221,325,413,384"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="320,293,320,325,314,325,314,293"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="428,275,642,323,654,326,652,331,640,328,427,280"/>
+<area shape="poly" id="edge11_Node000006_Node000005" title=" " alt="" coords="672,186,680,230,694,276,708,301,725,323,720,326,703,304,689,278,674,232,667,187"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="620,182,571,220,568,216,616,178"/>
+<area shape="rect" id="Node000009" href="$_g___accel_harmonic_8cpp.html" title="Implementación G_AccelHarmonic." alt="" coords="704,219,895,277"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="716,178,765,216,762,220,713,182"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="462,287,377,327,375,322,459,282"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="607,282,691,322,689,327,604,287"/>
+<area shape="rect" id="Node000008" href="$_var_eqn_8cpp.html" title="Implementación VarEqn." alt="" coords="437,325,629,384"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="536,293,536,325,530,325,530,293"/>
+</map>

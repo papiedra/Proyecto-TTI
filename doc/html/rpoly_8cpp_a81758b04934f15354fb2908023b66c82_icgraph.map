@@ -1,0 +1,14 @@
+<map id="copy_double" name="copy_double">
+<area shape="rect" id="Node000001" title=" " alt="" coords="708,5,802,32"/>
+<area shape="rect" id="Node000002" href="$rpoly_8cpp.html#af09c0354f5c263de0a96c44dc0624210" title=" " alt="" coords="5,5,172,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="692,14,660,12,522,11,220,17,172,19,172,13,220,12,522,5,660,7,692,9"/>
+<area shape="rect" id="Node000003" href="$rpoly_8cpp.html#aa5ba08f89089ce0003bccbb3d129cab9" title=" " alt="" coords="220,27,384,69"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="692,25,385,45,384,40,692,20"/>
+<area shape="rect" id="Node000004" href="$rpoly_8cpp.html#ac719380921f0b9b60300272ee1baed82" title=" " alt="" coords="571,56,660,83"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="703,40,655,58,653,53,701,35"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="204,37,172,33,172,27,204,32"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="556,68,384,56,385,51,556,63"/>
+<area shape="rect" id="Node000005" href="$rpoly_8cpp.html#a0c8378afa89722a60368dd4db66d8eef" title=" " alt="" coords="432,107,523,133"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="563,91,517,109,515,104,562,86"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="428,103,355,72,357,67,430,98"/>
+</map>

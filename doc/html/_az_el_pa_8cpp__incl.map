@@ -1,0 +1,22 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/AzElPa.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/AzElPa.cpp">
+<area shape="rect" id="Node000001" title="Implementación AzElPa." alt="" coords="100,5,291,64"/>
+<area shape="rect" id="Node000002" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="94,187,233,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,67,129,88,112,113,110,129,114,145,137,174,133,178,110,147,104,129,108,111,125,84,148,63"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,261,63,288"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="154,66,127,88,104,114,83,147,66,183,43,247,38,246,61,181,78,145,100,110,124,84,150,62"/>
+<area shape="rect" id="Node000007" href="$_az_el_pa_8hpp.html" title="Cabecera AzElPa." alt="" coords="122,112,269,139"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="198,64,198,96,193,96,193,64"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="269,187,319,213"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="240,62,264,84,283,111,294,141,297,171,292,171,288,142,278,113,260,88,236,66"/>
+<area shape="rect" id="Node000009" href="$_s_a_t___const_8hpp.html" title=" " alt="" coords="344,112,514,139"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="272,62,382,104,380,109,270,67"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="266,261,322,288"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,212,259,251,256,256,185,216"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="87,261,146,288"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="157,215,135,250,131,247,153,212"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="142,216,71,256,69,251,140,212"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="170,261,242,288"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="173,213,193,247,189,249,168,215"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="192,140,177,174,172,171,187,138"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="214,137,266,175,263,180,211,141"/>
+</map>

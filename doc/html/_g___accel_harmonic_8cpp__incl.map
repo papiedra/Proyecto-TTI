@@ -1,0 +1,20 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/G_AccelHarmonic.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/G_AccelHarmonic.cpp">
+<area shape="rect" id="Node000001" title="Implementación G_AccelHarmonic." alt="" coords="46,5,238,64"/>
+<area shape="rect" id="Node000002" href="$_g___accel_harmonic_8hpp.html" title="Cabecera AccelHarmonic." alt="" coords="37,112,247,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,64,145,96,139,96,139,64"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,336,63,363"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,142,64,160,48,172,36,188,24,221,21,257,23,291,29,321,24,322,18,292,15,257,19,220,32,185,45,169,61,155,97,137"/>
+<area shape="rect" id="Node000004" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="119,261,258,288"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="187,137,223,155,239,169,252,186,257,204,251,223,238,239,223,254,219,250,234,236,246,220,251,204,248,188,236,172,220,160,185,142"/>
+<area shape="rect" id="Node000008" href="$_accel_harmonic_8hpp.html" title="Cabecera AccelHarmonic." alt="" coords="46,187,238,213"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="145,139,145,171,139,171,139,139"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="163,291,76,331,74,327,161,286"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="87,336,144,363"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="178,290,141,327,137,323,174,287"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="167,336,226,363"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="193,288,196,320,191,321,187,289"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="250,336,322,363"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="207,286,259,325,256,329,204,291"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="135,215,54,325,50,322,131,212"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="152,212,175,247,170,250,148,215"/>
+</map>

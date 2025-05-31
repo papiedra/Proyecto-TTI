@@ -1,0 +1,7 @@
+<map id="m_norm_01" name="m_norm_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,95,57"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="143,5,220,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,33,127,26,128,32,96,38"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a907c9c6f53fc52d17e86b507b156536f" title="Norma de una matriz." alt="" coords="156,56,206,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,50,142,59,141,64,95,55"/>
+</map>

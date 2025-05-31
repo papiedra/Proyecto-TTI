@@ -1,0 +1,5 @@
+<map id="Cheb3D" name="Cheb3D">
+<area shape="rect" id="Node000001" title="Chebyshev approximation of 3&#45;dimensional vectors." alt="" coords="5,5,75,32"/>
+<area shape="rect" id="Node000002" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="123,5,176,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,16,107,16,107,21,75,21"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/LTC.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/LTC.cpp">
+<area shape="rect" id="Node000001" title="Implementación LTC." alt="" coords="199,5,390,64"/>
+<area shape="rect" id="Node000002" href="$_l_t_c_8hpp.html" title="Cabecera LTC." alt="" coords="5,112,133,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,67,116,108,114,104,220,62"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="302,261,359,288"/>
+<area shape="poly" id="edge14_Node000001_Node000006" title=" " alt="" coords="392,62,423,82,449,111,457,131,456,152,449,173,436,192,402,227,366,255,362,251,399,223,432,189,444,171,451,151,451,132,444,113,420,86,389,67"/>
+<area shape="rect" id="Node000008" href="$_r__y_8hpp.html" title=" " alt="" coords="156,112,283,139"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="272,66,242,101,238,98,268,63"/>
+<area shape="rect" id="Node000009" href="$_r__z_8hpp.html" title="Cabecera R_z." alt="" coords="307,112,434,139"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="321,63,352,98,348,102,317,66"/>
+<area shape="rect" id="Node000003" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="93,187,232,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,137,136,175,133,179,84,141"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="127,137,186,156,245,184,284,215,314,248,310,251,280,219,242,189,184,161,125,142"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="44,261,100,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="148,216,101,254,97,250,145,212"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="123,261,183,288"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="163,214,159,246,154,246,158,214"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="193,211,289,253,286,257,191,216"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="207,261,278,288"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="178,212,219,249,216,253,174,216"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="212,141,184,176,180,173,208,138"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="239,137,264,158,290,185,309,216,323,246,318,248,304,218,286,188,261,162,235,141"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="335,142,214,184,212,179,333,137"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="369,140,340,247,335,246,364,138"/>
+</map>

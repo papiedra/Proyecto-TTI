@@ -1,0 +1,13 @@
+<map id="hgibbs" name="hgibbs">
+<area shape="rect" id="Node000001" title="this function implements the herrick&#45;gibbs approximation for orbit determination, and finds the middl..." alt="" coords="366,31,426,57"/>
+<area shape="rect" id="Node000002" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="245,5,311,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="351,37,311,28,312,23,352,32"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a5f3d17ff5c5b55e29c2d33907af1ddb4" title=" " alt="" coords="238,56,318,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="352,56,320,63,318,58,351,51"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="103,5,190,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,21,190,21,190,16,230,16"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="111,56,182,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="222,72,182,72,182,67,222,67"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="96,72,55,72,55,67,96,67"/>
+</map>

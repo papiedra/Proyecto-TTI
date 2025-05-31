@@ -1,0 +1,10 @@
+<map id="Matrix::operator/" name="Matrix::operator/">
+<area shape="rect" id="Node000001" title="Divisiónde matrices." alt="" coords="5,55,122,81"/>
+<area shape="rect" id="Node000002" href="$matrix_8cpp.html#ad8d8519e7f94df41a4c5b535b4899222" title="Calcular inversa de una matriz." alt="" coords="201,29,240,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,56,185,45,186,51,123,61"/>
+<area shape="rect" id="Node000004" href="$class_matrix.html#a2dba13c45127354c9f75ef576f49269b" title="Construct a new Matrix:: Matrix object sin filas ni columnas." alt="" coords="170,80,271,107"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="123,75,154,80,154,85,122,80"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="199,30,195,20,198,11,206,5,220,3,235,5,243,12,240,16,233,10,220,8,208,10,202,14,201,20,204,28"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a15edf2068dad7d0ca7cef248e471f87d" title="Crear identidad de tamaño n." alt="" coords="319,29,361,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,40,304,40,304,45,240,45"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/AccelHarmonic.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/AccelHarmonic.cpp">
+<area shape="rect" id="Node000001" title="Implementación AccelHarmonic." alt="" coords="400,5,591,64"/>
+<area shape="rect" id="Node000002" href="$_accel_harmonic_8hpp.html" title="Cabecera AccelHarmonic." alt="" coords="469,187,661,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="510,63,556,171,551,173,505,65"/>
+<area shape="rect" id="Node000008" href="$global_8hpp.html" title="Cabeceras de los métodos que cargan ficheros y declaraciones de las variables extern." alt="" coords="204,112,341,139"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="424,67,319,108,317,104,422,62"/>
+<area shape="rect" id="Node000009" href="$_s_a_t___const_8hpp.html" title=" " alt="" coords="331,187,444,213"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="479,66,406,175,402,172,474,63"/>
+<area shape="rect" id="Node000012" href="$_legendre_8hpp.html" title="Cabecera legendre." alt="" coords="632,112,788,139"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="566,62,667,103,665,108,564,67"/>
+<area shape="rect" id="Node000003" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="252,261,334,288"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="518,216,350,261,348,256,517,211"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="85,336,143,363"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="473,217,341,238,282,251,240,264,185,294,141,328,137,324,183,290,238,259,281,246,340,233,472,211"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="183,336,240,363"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="280,291,238,328,235,324,277,287"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="263,336,322,363"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="295,289,295,320,290,320,290,289"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="263,291,158,333,156,328,261,286"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="346,336,418,363"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="310,286,356,324,353,328,307,291"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="277,139,292,245,286,246,272,140"/>
+<area shape="poly" id="edge14_Node000008_Node000006" title=" " alt="" coords="204,136,94,155,47,170,30,179,19,188,10,205,9,223,14,242,24,261,54,296,86,325,83,329,50,300,19,264,9,244,3,224,5,204,15,185,27,174,45,165,93,150,203,131"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="294,137,356,176,353,180,291,141"/>
+<area shape="rect" id="Node000010" href="$_mjday_8hpp.html" title="Cabecera Mjday." alt="" coords="29,187,167,213"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="243,142,144,183,142,178,241,137"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="191,187,256,213"/>
+<area shape="poly" id="edge15_Node000008_Node000011" title=" " alt="" coords="266,141,243,175,238,172,262,138"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="133,211,245,253,243,258,131,216"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="102,214,114,320,108,321,97,214"/>
+<area shape="poly" id="edge18_Node000012_Node000003" title=" " alt="" coords="725,137,739,154,751,174,757,195,749,215,729,226,691,236,583,253,350,273,349,267,582,247,690,231,727,221,745,212,752,195,747,176,735,157,721,141"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="685,187,735,213"/>
+<area shape="poly" id="edge19_Node000012_Node000013" title=" " alt="" coords="713,139,713,171,707,171,707,139"/>
+</map>

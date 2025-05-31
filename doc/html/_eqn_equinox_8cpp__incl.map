@@ -1,0 +1,28 @@
+<map id="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/EqnEquinox.cpp" name="C:/Users/usuario/Documents/GitHub/Proyecto&#45;TTI/src/EqnEquinox.cpp">
+<area shape="rect" id="Node000001" title="Implementación EqnEquinox." alt="" coords="225,5,417,64"/>
+<area shape="rect" id="Node000002" href="$_eqn_equinox_8hpp.html" title="Cabecera EqnEquinox." alt="" coords="30,112,204,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,67,161,108,159,103,254,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="215,261,272,288"/>
+<area shape="poly" id="edge14_Node000001_Node000003" title=" " alt="" coords="225,50,164,60,102,74,51,92,33,103,20,114,12,127,9,139,14,162,31,184,59,204,93,222,131,237,201,260,199,265,129,242,91,227,56,209,28,188,9,165,4,139,8,125,16,110,30,98,49,87,101,69,163,55,225,45"/>
+<area shape="rect" id="Node000004" href="$_nut_angles_8hpp.html" title="Cabecera NutAngles." alt="" coords="437,112,602,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="387,62,479,103,476,108,384,67"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="611,187,660,213"/>
+<area shape="poly" id="edge15_Node000001_Node000005" title=" " alt="" coords="418,47,534,73,583,90,616,110,626,124,633,140,638,171,633,172,628,141,622,126,612,114,581,95,533,78,416,53"/>
+<area shape="rect" id="Node000011" href="$_mean_obliquity_8hpp.html" title="Cabecera MeanObliquity." alt="" coords="228,112,414,139"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="324,64,324,96,318,96,318,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,137,225,247,221,251,126,141"/>
+<area shape="poly" id="edge11_Node000004_Node000003" title=" " alt="" coords="470,142,411,161,350,189,305,220,268,253,264,249,302,216,348,184,409,156,469,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="541,137,604,176,601,180,538,141"/>
+<area shape="rect" id="Node000006" href="$_s_a_t___const_8hpp.html" title=" " alt="" coords="467,187,580,213"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="523,139,525,171,519,171,518,139"/>
+<area shape="rect" id="Node000007" href="$matrix_8hpp.html" title="Cabeceras de la clase matrix." alt="" coords="361,187,443,213"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="501,141,437,181,434,176,498,137"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="376,216,286,257,284,252,374,211"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="297,261,353,288"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="391,216,351,253,348,249,387,212"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="377,261,436,288"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="406,214,407,246,402,246,400,214"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="460,261,531,288"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="420,212,469,250,466,254,417,216"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="317,140,260,249,255,246,312,138"/>
+</map>

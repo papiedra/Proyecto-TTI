@@ -1,0 +1,6 @@
+<map id="inv" name="inv">
+<area shape="rect" id="Node000001" title="Calcular inversa de una matriz." alt="" coords="5,29,44,56"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="8,29,7,12,14,5,25,3,36,5,42,12,38,15,33,10,25,8,16,10,12,14,13,29"/>
+<area shape="rect" id="Node000002" href="$matrix_8cpp.html#a15edf2068dad7d0ca7cef248e471f87d" title="Crear identidad de tamaño n." alt="" coords="92,29,134,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,40,77,40,77,45,44,45"/>
+</map>

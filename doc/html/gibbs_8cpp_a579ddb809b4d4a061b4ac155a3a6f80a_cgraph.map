@@ -1,0 +1,19 @@
+<map id="gibbs" name="gibbs">
+<area shape="rect" id="Node000001" title="Transformation from true equator and equinox to Earth equator and Greenwich meridian system this func..." alt="" coords="5,107,58,133"/>
+<area shape="rect" id="Node000002" href="$angl_8cpp.html#ac48c4ac03e1bae9d3e53a2639792cd32" title="angle between the two vectors" alt="" coords="110,31,155,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,104,100,65,103,69,52,108"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a6051f8be055a7658461e1ddb60e704d8" title="Producto escalar entre vectores." alt="" coords="226,5,266,32"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="35,105,59,59,79,35,104,16,131,7,160,4,211,8,211,13,160,9,132,12,107,21,83,39,64,62,40,108"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a907c9c6f53fc52d17e86b507b156536f" title="Norma de una matriz." alt="" coords="221,81,271,108"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="58,114,205,97,205,102,58,120"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a64bac8cc779042ecf295e590d17a59e5" title="Producto Vectorial." alt="" coords="106,132,159,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="59,124,91,132,90,137,57,129"/>
+<area shape="rect" id="Node000006" href="$matrix_8cpp.html#acbd9778b697f9ad3da64ef53b850e2c9" title="Trasponer una matriz." alt="" coords="207,208,285,235"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="40,132,64,178,83,201,107,219,127,227,149,230,192,230,192,235,148,236,126,232,104,224,79,205,59,181,35,135"/>
+<area shape="rect" id="Node000007" href="$unit_8cpp.html#a14c6001388ed63c6cca5c34d16981d6f" title="this function calculates a unit vector given the original vector. if a zero vector is input,..." alt="" coords="111,183,154,209"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="52,132,103,171,100,175,49,136"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,36,211,24,212,29,156,42"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="157,52,208,75,206,80,155,56"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="147,180,217,117,220,121,150,184"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="155,198,192,207,191,212,153,203"/>
+</map>

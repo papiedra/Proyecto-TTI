@@ -1,0 +1,43 @@
+<map id="extract_vector" name="extract_vector">
+<area shape="rect" id="Node000001" title="Extaer un vector de otro." alt="" coords="765,183,869,209"/>
+<area shape="rect" id="Node000002" href="$_accel_8cpp.html#a90a9d07270cea0a2accb38d118fff177" title="Computes the acceleration of an Earth orbiting satellite." alt="" coords="447,284,501,311"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="775,219,718,243,598,276,502,295,501,290,597,270,716,237,773,214"/>
+<area shape="rect" id="Node000008" href="$_e_f_k___g_e_o_s3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Initial Orbit Determination using Gauss and Extended Kalman Filter methods." alt="" coords="262,208,311,235"/>
+<area shape="poly" id="edge20_Node000001_Node000008" title=" " alt="" coords="750,202,312,223,312,218,749,197"/>
+<area shape="rect" id="Node000009" href="$elements_8cpp.html#a2628736c6f909f3cd2f71bce278c1cfb" title="Computes the osculating Keplerian elements from the satellite state vector for elliptic orbits." alt="" coords="619,56,694,83"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="794,172,759,134,715,97,693,85,695,80,719,92,763,130,798,169"/>
+<area shape="rect" id="Node000013" href="$_j_p_l___e_p_h___d_e430_8cpp.html#afaa3d88062cc92fdf1f1f374da598c6f" title="Computes the sun, moon, and nine major planets&#39; equatorial position using JPL Ephemerides." alt="" coords="596,309,717,336"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="796,222,761,257,719,293,688,311,686,307,715,288,757,253,792,218"/>
+<area shape="rect" id="Node000015" href="$tests_8cpp.html#ac07f3fa859f060e47fb03b82ce5d85b7" title=" " alt="" coords="606,107,706,133"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="772,178,685,136,688,131,774,173"/>
+<area shape="rect" id="Node000016" href="$_var_eqn_8cpp.html#a502bdb5c8e9c335cd3fc942d1816f2e2" title="Computes the variational equations, i.e. the derivative of the state vector and the state transition ..." alt="" coords="442,157,506,184"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="749,194,506,176,506,170,750,188"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#ad6e00c9978210449973a47573878ff32" title=" " alt="" coords="249,309,324,336"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,306,325,320,325,315,431,300"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a9ba4abccdacbc2fbee304e884c7bd9ab" title=" " alt="" coords="221,360,352,387"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="434,317,353,350,325,362,323,357,351,346,432,312"/>
+<area shape="rect" id="Node000007" href="$tests_8cpp.html#adf1b96c3eae4bca7948d6a066dd14335" title=" " alt="" coords="242,259,331,285"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="431,294,332,281,332,275,432,289"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="432,283,351,249,311,233,313,228,353,244,434,278"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a438723717e25f3ab29c50c261ed54996" title=" " alt="" coords="103,233,173,260"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="233,306,220,300,158,263,161,258,222,295,236,301"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,233,55,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,249,55,249,55,244,87,244"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="226,355,219,350,195,329,174,305,145,262,149,259,178,301,199,325,223,346,229,350"/>
+<area shape="rect" id="Node000010" href="$anglesg_8cpp.html#a06683a08c92ea5d0783fdaea7b558339" title="this function solves the problem of orbit determination using three optical sightings." alt="" coords="441,56,507,83"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="604,72,507,72,507,67,604,67"/>
+<area shape="rect" id="Node000012" href="$tests_8cpp.html#a0e221d0fb85708adff3646b7b78d1b2e" title=" " alt="" coords="426,5,522,32"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="603,58,522,34,523,29,605,52"/>
+<area shape="rect" id="Node000011" href="$tests_8cpp.html#ac3f8bc9c18377da47436422cb58b8ca5" title=" " alt="" coords="243,56,330,83"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="425,72,331,72,331,67,425,67"/>
+<area shape="poly" id="edge13_Node000012_Node000004" title=" " alt="" coords="410,11,365,8,316,11,267,23,244,33,223,46,202,66,184,90,161,143,148,195,143,233,137,233,143,194,156,141,180,87,198,62,219,42,241,28,265,18,315,6,365,3,411,6"/>
+<area shape="poly" id="edge15_Node000013_Node000002" title=" " alt="" coords="580,315,501,304,502,298,580,309"/>
+<area shape="rect" id="Node000014" href="$tests_8cpp.html#abf7a5dc0dec7026c1698ebc45f116357" title=" " alt="" coords="400,360,548,387"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="592,343,525,362,524,357,590,338"/>
+<area shape="poly" id="edge17_Node000014_Node000004" title=" " alt="" coords="430,395,384,410,329,420,273,419,245,413,220,401,201,387,186,370,162,331,147,292,139,261,144,260,152,290,167,329,190,367,205,383,222,396,247,408,273,414,329,415,382,405,428,390"/>
+<area shape="poly" id="edge19_Node000015_Node000004" title=" " alt="" coords="590,111,512,103,417,102,367,106,317,115,268,128,222,148,197,166,176,189,148,234,143,231,171,186,193,162,220,143,267,123,316,109,366,101,417,96,512,97,591,106"/>
+<area shape="poly" id="edge22_Node000016_Node000008" title=" " alt="" coords="428,186,313,217,311,212,426,181"/>
+<area shape="rect" id="Node000017" href="$tests_8cpp.html#a47e267fa98a83e79696470d1b6e67569" title=" " alt="" coords="244,157,329,184"/>
+<area shape="poly" id="edge23_Node000016_Node000017" title=" " alt="" coords="427,173,329,173,329,168,427,168"/>
+<area shape="poly" id="edge24_Node000017_Node000004" title=" " alt="" coords="234,193,222,198,161,235,158,230,220,194,232,188"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="PrecMat_01" name="PrecMat_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,97,69"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="145,5,222,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,40,129,31,130,36,98,46"/>
+<area shape="rect" id="Node000003" href="$_prec_mat_8cpp.html#ab3355540b4a56fae8403b3c0ad8c1391" title="Precession transformation of equatorial coordinates." alt="" coords="148,80,218,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,66,134,77,133,82,97,72"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="163,80,160,71,162,62,170,56,183,53,197,56,204,62,201,66,195,61,183,59,173,60,167,65,166,71,168,79"/>
+<area shape="rect" id="Node000004" href="$_r__y_8cpp.html#aa0e372366355a27f28ad58272b2a9a15" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje y." alt="" coords="270,29,315,56"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="213,77,255,57,257,62,215,82"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="363,80,417,107"/>
+<area shape="poly" id="edge8_Node000003_Node000005" title=" " alt="" coords="219,91,348,91,348,96,219,96"/>
+<area shape="rect" id="Node000006" href="$_r__z_8cpp.html#a6da83e42a1643db663785ca9e7291a79" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje z." alt="" coords="270,131,315,157"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="215,105,257,125,255,130,213,110"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="317,52,351,70,348,75,315,57"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="315,130,348,112,351,117,317,135"/>
+</map>

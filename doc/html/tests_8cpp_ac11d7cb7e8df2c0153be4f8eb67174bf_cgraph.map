@@ -1,0 +1,15 @@
+<map id="PoleMatrix_01" name="PoleMatrix_01">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,110,57"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#a3677c19fd7f5e97a58733e0a15082327" title=" " alt="" coords="161,5,238,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,32,145,26,146,31,111,37"/>
+<area shape="rect" id="Node000003" href="$_pole_mat_8cpp.html#a9e8ca9a8843618d4765d867df950c695" title="Transformation from pseudo Earth&#45;fixed to Earth&#45;fixed coordinates for a given date." alt="" coords="158,56,241,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="111,51,143,57,142,62,110,56"/>
+<area shape="rect" id="Node000004" href="$_r__x_8cpp.html#a9ddfb0a29d5d5a665c90840e28d0f9e8" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje x." alt="" coords="289,5,334,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,53,273,33,276,38,232,58"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a56d60ea1f08402246a7cfd477d69a618" title="Inicializar matriz con ceros en todas las entradas." alt="" coords="382,56,436,83"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="242,67,367,67,367,72,242,72"/>
+<area shape="rect" id="Node000006" href="$_r__y_8cpp.html#aa0e372366355a27f28ad58272b2a9a15" title="Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje y." alt="" coords="289,107,334,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="232,81,276,101,273,106,230,86"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="336,28,370,46,367,51,334,33"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="334,106,367,88,370,93,336,111"/>
+</map>
