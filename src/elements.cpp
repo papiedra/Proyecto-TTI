@@ -1,4 +1,20 @@
+/**
+ * @file elements.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación elements
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\elements.hpp"
+/**
+ * @brief Computes the osculating Keplerian elements from the satellite state vector for elliptic orbits
+ * 
+ * @param y State vector (x,y,z,vx,vy,vz)
+ * @return tuple<double, double, double, double, double, double, double> (semilatus rectum [m], Semimajor axis , Eccentricity, Inclination [rad], Longitude of the ascending node [rad], Argument of pericenter [rad],Mean anomaly [rad])
+ */
 tuple<double, double, double, double, double, double, double> elements(Matrix y) {
         
     double pi2 = pi2;

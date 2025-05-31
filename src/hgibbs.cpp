@@ -1,4 +1,27 @@
+/**
+ * @file hgibbs.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación hgibbs
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\hgibbs.hpp"
+/**
+ * @brief this function implements the herrick-gibbs approximation for orbit determination, and finds the middle velocity vector for the 3 given position vectors.
+ * 
+ * @param r1 ijk position vector #1         m
+ * @param r2 ijk position vector #2         m
+ * @param r3 ijk position vector #3         m
+ * @param Mjd1 julian date of 1st sighting    days from 4713 bc
+ * @param Mjd2 julian date of 2nd sighting    days from 4713 bc
+ * @param Mjd3 julian date of 3rd sighting    days from 4713 bc
+ * @return tuple<Matrix&, double, double, double, string> v2          - ijk velocity vector for r2     m/s
+ *                                                        theta       - angl between vectors           rad
+ *                                                        error       - flag indicating success        'ok',...
+ */
 tuple<Matrix&, double, double, double, string> hgibbs(Matrix r1, Matrix r2, Matrix r3, double Mjd1, double Mjd2, double Mjd3) {
     
     string error =  "          ok";

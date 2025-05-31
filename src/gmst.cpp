@@ -1,6 +1,22 @@
+/**
+ * @file gmst.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación de gmst
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\gmst.hpp"
 #include "..\include\SAT_Const.hpp"
 #include <cmath>
+/**
+ * @brief Greenwich Mean Sidereal Time
+ * 
+ * @param Mjd_UT1 Modified Julian Date UT1
+ * @return double GMST in [rad]
+ */
 double gmst(double Mjd_UT1){
     double secs,MJD_J2000,gmstime,Mjd_0,UT1,T_0,T,gmst;
     secs = 86400.0;                       

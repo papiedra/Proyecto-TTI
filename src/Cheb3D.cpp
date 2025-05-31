@@ -1,11 +1,33 @@
+/**
+ * @file Cheb3D.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación Cheb3D
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\Cheb3D.hpp"
+/**
+ * @brief Chebyshev approximation of 3-dimensional vectors
+ * 
+ * @param t 
+ * @param N Number of coefficients
+ * @param Ta Begin interval
+ * @param Tb End interval
+ * @param Cx Coefficients of Chebyshev polyomial (x-coordinate)
+ * @param Cy Coefficients of Chebyshev polyomial (y-coordinate)
+ * @param Cz Coefficients of Chebyshev polyomial (z-coordinate)
+ * @return Matrix& 
+ */
 Matrix& Cheb3D(double t, int N, double Ta, double Tb, Matrix &Cx, Matrix &Cy, Matrix &Cz){
-    //Check validity
+   
     if(t<Ta || Tb<t){
         cout<<"ERROR: Time out of range in Cheb3D"<<endl;
         exit(EXIT_FAILURE);
     }
-    //Clenshaw algorithm
+    
     double tau=(2*t-Ta-Tb)/(Tb-Ta);
     Matrix f1=zeros(3);
     Matrix f2=zeros(3);

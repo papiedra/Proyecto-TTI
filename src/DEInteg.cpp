@@ -1,15 +1,37 @@
+/**
+ * @file DEInteg.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación DEInteg
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\DEInteg.hpp"
 
 
 enum class DE_STATE {
-    DE_INIT = 1,      
-    DE_DONE = 2,      
-    DE_BADACC = 3,    
-    DE_NUMSTEPS = 4,  
-    DE_STIFF = 5,     
-    DE_INVPARAM = 6   
+    DE_INIT = 1,      //Restart integration
+    DE_DONE = 2,      //Successful step
+    DE_BADACC = 3,    //Accuracy requirement could not be achieved
+    DE_NUMSTEPS = 4,  //Permitted number of steps exceeded
+    DE_STIFF = 5,     //Stiff problem suspected
+    DE_INVPARAM = 6   //Invalid input parameters
 };
-
+/**
+ * @brief Numerical integration methods for ordinaray differential equations
+ *        This module provides implemenation of the variable order variable stepsize multistep method of Shampine & Gordon.
+ * 
+ * @param f 
+ * @param t 
+ * @param tout 
+ * @param relerr 
+ * @param abserr 
+ * @param n_eqn 
+ * @param y 
+ * @return Matrix& 
+ */
 Matrix& DEInteg(Matrix& f(double t, Matrix y), double t, double tout, double relerr, double abserr, int n_eqn, Matrix &y) {
     
 	if (y.n_row==1) {

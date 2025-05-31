@@ -1,8 +1,26 @@
+/**
+ * @file IERS.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación IERS
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\matrix.hpp"
 #include "..\include\IERS.hpp"
 #include "..\include\SAT_Const.hpp"
 #include <cmath>
 #include <tuple>
+/**
+ * @brief Management of IERS time and polar motion data
+ * 
+ * @param eop 
+ * @param Mjd_UTC 
+ * @param interp 
+ * @return std::tuple<double,  double, double, double, double, double, double, double, double> 
+ */
 std::tuple<double,  double, double, double, double, double, double, double, double> IERS(Matrix& eop, double Mjd_UTC, char interp){
     
 

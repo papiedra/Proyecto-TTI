@@ -1,9 +1,22 @@
+/**
+ * @file global.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación de los metodos auxparam,eop19620101,GGM03S,DE430Coeff y GEOS3
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\global.hpp"
 #include "..\include\matrix.hpp"
 
 Matrix eopdata;
 Param AuxParam;
-
+/**
+ * @brief Inicializa los parámetros auxiliares
+ * 
+ */
 void auxparam() {
     AuxParam.Mjd_UTC = 49746.1163541665;
     AuxParam.n      = 20;
@@ -13,7 +26,11 @@ void auxparam() {
     AuxParam.planets = 1;
     AuxParam.Mjd_TT  = 49746.1170623147;
 }
-
+/**
+ * @brief Leer los datos del fichero eop19620101.txt y los guarda en una matriz
+ * 
+ * @param c Numero de columnas a leer del fichero
+ */
 void eop19620101(int c) {
     eopdata = zeros(13, c);
     FILE *fid = fopen("..\\data\\eop19620101.txt", "r");
@@ -32,7 +49,10 @@ void eop19620101(int c) {
 
 Matrix Cnm;
 Matrix Snm;
-
+/**
+ * @brief Lee los datos del fichero GGM03S.txt y los almacena en una matriz
+ * 
+ */
 void GGM03S() {
     
     Cnm = zeros(181, 181);
@@ -56,7 +76,10 @@ void GGM03S() {
 }
 
 Matrix PC;
-
+/**
+ * @brief Lee los datos del fichero DE430Coeff.txt y los almacena en una matriz
+ * 
+ */
 void DE430Coeff() {
     PC = zeros(2285, 1020);
 	FILE *fid = fopen("../data/DE430Coeff.txt","r");
@@ -74,7 +97,11 @@ void DE430Coeff() {
 	fclose(fid);
 }
 Matrix Obs;
-
+/**
+ * @brief Lee los datos del fichero GEOS3.txt y los almacena en una matriz
+ * 
+ * @param f Numero de observaciones a leer del archivo
+ */
 void GEOS3(int f) {
     Obs = zeros(f, 4);
 

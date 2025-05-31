@@ -1,5 +1,22 @@
+/**
+ * @file EccAnom.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación EccAnom
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\EccAnom.hpp"
 #include "..\include\SAT_Const.hpp" 
+/**
+ * @brief Computes the eccentric anomaly for elliptic orbits
+ * 
+ * @param M Mean anomaly in [rad]
+ * @param e Eccentricity of the orbit [0,1]
+ * @return double Eccentric anomaly in [rad]
+ */
 double EccAnom(double M, double e){
    int maxit=15;
    int i=1;

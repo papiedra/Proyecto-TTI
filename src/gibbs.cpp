@@ -1,4 +1,24 @@
+/**
+ * @file gibbs.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementacion gibbs
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\gibbs.hpp"
+/**
+ * @brief   Transformation from true equator and equinox to Earth equator and Greenwich meridian system this function performs the gibbs method of orbit determination. this method determines the velocity at the middle point of the 3 given position vectors.
+ * 
+ * @param r1 ijk position vector #1         m
+ * @param r2 ijk position vector #2         m
+ * @param r3 ijk position vector #3         m
+ * @return tuple<Matrix&, double, double, double, string>  v2          - ijk velocity vector for r2     m/s
+ *                                                         theta       - angl between vectors           rad
+ *                                                         error       - flag indicating success        'ok',...
+ */
 tuple<Matrix&, double, double, double, string> gibbs(Matrix r1, Matrix r2, Matrix r3) {
     
     double small=0.00000001;

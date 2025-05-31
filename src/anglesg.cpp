@@ -1,5 +1,31 @@
+/**
+ * @file anglesg.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación anglesg
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\anglesg.hpp"
-
+/**
+ * @brief this function solves the problem of orbit determination using three optical sightings.
+ * 
+ * @param az1 azimuth at t1  
+ * @param az2 azimuth at t2 
+ * @param az3 azimuth at t3 
+ * @param el1 elevation at t1 
+ * @param el2 elevation at t2
+ * @param el3 elevation at t3 
+ * @param Mjd1 Modified julian date of t1
+ * @param Mjd2 Modified julian date of t2
+ * @param Mjd3 Modified julian date of t3
+ * @param Rs1 ijk site1 position vector 
+ * @param Rs2 ijk site2 position vector 
+ * @param Rs3 ijk site3 position vector 
+ * @return tuple<Matrix&, Matrix&> (ijk position vector at t2, ijk velocity vector at t2 )
+ */
 tuple<Matrix&, Matrix&> anglesg(double az1, double az2, double az3, double el1, double el2, double el3, double Mjd1, double Mjd2, double Mjd3, Matrix Rs1, Matrix Rs2, Matrix Rs3) {
     Matrix L1(3); Matrix L2(3); Matrix L3(3);
     Matrix Lm1(3), Lm2(3), Lm3(3);

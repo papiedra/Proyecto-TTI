@@ -1,5 +1,22 @@
+/**
+ * @file JPL_EPH_DE430.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación JPL_Eph_DE430
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\JPL_Eph_DE430.hpp"
-
+/**
+ * @brief Toma el rango de enteros de start a end con espacio skip
+ * 
+ * @param start Copienzo
+ * @param skip Paso
+ * @param end Fin
+ * @return Matrix& Referencia a la matriz que contiene todos los enteros 
+ */
 Matrix& range(int start, int skip, int end) {
     int num = (end-start)/skip;
     Matrix* m = new Matrix(num+1);
@@ -10,7 +27,12 @@ Matrix& range(int start, int skip, int end) {
     return *m;
 }
 
-
+/**
+ * @brief Computes the sun, moon, and nine major planets' equatorial position using JPL Ephemerides
+ * 
+ * @param Mjd_TDB Modified julian date of TDB
+ * @return std::tuple<Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&> r_Earth(solar system barycenter (SSB)),r_Mars,r_Mercury,r_Venus, r_Jupiter,r_Saturn,r_Uranus,r_Neptune,r_Pluto,r_Moon, r_Sun(geocentric equatorial position ([m]) referred to the International Celestial Reference Frame (ICRF))
+ */
 std::tuple<Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&, Matrix&> JPL_Eph_DE430(double Mjd_TDB) {
     
     double JD = Mjd_TDB + 2400000.5;

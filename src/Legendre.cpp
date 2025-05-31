@@ -1,5 +1,22 @@
+/**
+ * @file Legendre.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación de legendre
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\legendre.hpp"
-
+/**
+ * @brief Computes the Legendre polynomials and their derivatives
+ * 
+ * @param n Maximum degree of the Legendre polynomials
+ * @param m Maximum order of the Legendre polynomials
+ * @param fi Angle in radians for which the polynomials are computed
+ * @return std::tuple<Matrix, Matrix> (Polinomios, Derivadas)
+ */
 std::tuple<Matrix, Matrix> legendre(int n, int m, double fi) {
     
     Matrix pnm = zeros(n+1,m+1);

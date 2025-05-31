@@ -1,6 +1,15 @@
 #ifndef _MATRIX_
 #define _MATRIX_
-
+/**
+ * @file matrix.hpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Cabeceras de la clase matrix
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include <cstdio>
 #include <cstdlib>
 #include <cmath>

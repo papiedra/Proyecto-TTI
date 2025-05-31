@@ -1,6 +1,9 @@
 #ifndef BEGIN_C_DECLS
 #define BEGIN_C_DECLS
-
+/**
+ * @brief Código aportado en el aula virtual
+ * 
+ */
 // Opaque state handle
 struct RPoly_State;
 

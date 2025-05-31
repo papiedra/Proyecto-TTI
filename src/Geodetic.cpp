@@ -1,4 +1,20 @@
+/**
+ * @file Geodetic.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación Geodetic
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\Geodetic.hpp"
+/**
+ * @brief geodetic coordinates (Longitude [rad], latitude [rad], altitude [m]) from given position vector (r [m])
+ * 
+ * @param r 
+ * @return tuple<double, double, double> 
+ */
 tuple<double, double, double> Geodetic(Matrix r) {
     
     double R_equ = R_Earth;

@@ -1,6 +1,9 @@
 #ifndef INITIAL_ORBIT_DETERMINATION_C___SAT_CONST_H
 #define INITIAL_ORBIT_DETERMINATION_C___SAT_CONST_H
-
+/**
+ * @brief Fichero para la declaración de constantes
+ * 
+ */
 
 // Mathematical constants
 const double pi        = 3.14159265358979324;

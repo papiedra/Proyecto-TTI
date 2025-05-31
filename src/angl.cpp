@@ -1,4 +1,21 @@
+/**
+ * @file angl.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación angl
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\angl.hpp"
+/**
+ * @brief angle between the two vectors
+ * 
+ * @param vec1 vector 1
+ * @param vec2 vector 2
+ * @return double angle between the two vectors, pi to pi
+ */
 double angl(Matrix vec1, Matrix vec2){
     double small     = 0.00000001;
     double undefined = 999999.1;

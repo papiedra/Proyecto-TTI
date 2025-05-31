@@ -1,6 +1,28 @@
+/**
+ * @file Accel.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación Accel
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\Accel.hpp"
 
-
+/**
+ * @brief Computes the acceleration of an Earth orbiting satellite
+ * 
+ * Due to:
+ * - The Earth's harmonic gravity field
+ * - The Gravitational perturbations of Sun and Moon 
+ * - The Solar radiation pressure
+ * - The Atmospheric drag
+ * 
+ * @param x Terrestrial Time (Modified Julian Date)
+ * @param Y Satellite state vector in the ICRF/EME2000 system
+ * @return Matrix& Acceleration (a=d^2r/dt^2) in the ICRF/EME2000 system
+ */
 Matrix& Accel(double x, Matrix Y) {
     auto [x_pole,y_pole,UT1_UTC,LOD,dpsi,deps,dx_pole,dy_pole,TAI_UTC] = IERS(eopdata,AuxParam.Mjd_UTC + x/86400,'l');
     double UT1_TAI, UTC_GPS, UT1_GPS, TT_UTC, GPS_UTC;
