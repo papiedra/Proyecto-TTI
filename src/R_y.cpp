@@ -1,4 +1,20 @@
+/**
+ * @file R_y.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación R_y
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\R_y.hpp"
+/**
+ * @brief Genera la matriz de rotación para el ángulo pasado como parámetro en torno al eje y
+ * 
+ * @param angle angle of rotation [rad]
+ * @return Matrix result
+ */
 Matrix R_y(double angle){
     double C=cos(angle);
     double S=sin(angle);

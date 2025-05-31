@@ -1,6 +1,20 @@
-
+/**
+ * @file Mjday_TBD.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación Mjday_TBD
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\Mjday_TBD.hpp"
-
+/**
+ * @brief Computes the Modified Julian Date for barycentric dynamical time
+ * 
+ * @param Mjd_TT Modified julian date (TT)
+ * @return double Modified julian date (TDB)
+ */
 double Mjday_TBD(double Mjd_TT){
     double T_TT = (Mjd_TT - 51544.5)/36525;
 

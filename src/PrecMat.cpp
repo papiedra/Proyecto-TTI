@@ -1,9 +1,25 @@
+/**
+ * @file PrecMat.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación PrecMat
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\PrecMat.hpp"
 #include "..\include\SAT_Const.hpp"
 #include "..\include\R_z.hpp"
 #include "..\include\R_y.hpp"
 #include <cmath>
-
+/**
+ * @brief Precession transformation of equatorial coordinates
+ * 
+ * @param Mjd_1 Epoch given (Modified Julian Date TT)
+ * @param Mjd_2 Epoch to precess to (Modified Julian Date TT)
+ * @return Matrix Precession transformation matrix
+ */
 Matrix PrecMat(double Mjd_1, double Mjd_2){
     Matrix PrecMat=zeros(3,3);
     double T,dT,zeta,z,theta;

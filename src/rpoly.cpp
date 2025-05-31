@@ -1,3 +1,13 @@
+/**
+ * @file rpoly.cpp
+ * @author Aportado en aula virtual
+ * @brief 
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\angl.hpp"
 #include "..\include\rpoly.hpp"
 // Adapted in 2013 by Ethan Eade from NETLIB program 493:

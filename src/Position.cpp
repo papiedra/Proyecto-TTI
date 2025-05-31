@@ -1,4 +1,22 @@
+/**
+ * @file Position.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación Position
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\Position.hpp"
+/**
+ * @brief Position vector (r [m]) from geodetic coordinates (Longitude [rad], latitude [rad], altitude [m])
+ * 
+ * @param lon longitud
+ * @param lat latitud
+ * @param h altura
+ * @return Matrix vector posición
+ */
 Matrix Position(double lon, double lat, double h){
     double R_equ = R_Earth;
     double f     = f_Earth;

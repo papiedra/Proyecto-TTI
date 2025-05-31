@@ -1,3 +1,13 @@
+/**
+ * @file EFK_GEOS3.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Metodo main
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\matrix.hpp"
 #include "..\include\global.hpp"
 #include "..\include\Legendre.hpp"
@@ -18,7 +28,11 @@
 #include <iostream>
 
 using namespace std;
-
+/**
+ * @brief Initial Orbit Determination using Gauss and Extended Kalman Filter methods
+ * 
+ * @return int 
+ */
 int main() {
 	eop19620101(21413); 
     GGM03S();

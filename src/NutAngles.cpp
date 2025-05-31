@@ -1,5 +1,20 @@
+/**
+ * @file NutAngles.cpp
+ * @author Pablo Piedrafita Sanromán
+ * @brief Implementación NutAngles
+ * @version 0.1
+ * @date 2025-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "..\include\NutAngles.hpp"
-
+/**
+ * @brief Nutation in longitude and obliquity
+ * 
+ * @param Mjd_TT Modified Julian Date (Terrestrial Time)
+ * @return std::tuple<double, double> Nutation Angles
+ */
 std::tuple<double, double> NutAngles(double Mjd_TT) {
 
     double T  = (Mjd_TT-MJD_J2000)/36525;
