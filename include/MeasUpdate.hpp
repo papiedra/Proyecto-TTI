@@ -1,9 +1,9 @@
 #ifndef _MEASUPDATE_
 #define _MEASUPDATE_
-#include <cmath>
-#include <tuple>
-#include "..\include\matrix.hpp"
 
-std::tuple<Matrix, Matrix, Matrix> MeasUpdate(Matrix& x,Matrix& z,Matrix& g,Matrix& s,Matrix& G,Matrix& P,double n);
+#include "..\include\matrix.hpp"
+#include <tuple>
+
+tuple<Matrix&, Matrix&, Matrix&> MeasUpdate(Matrix x, double z, double g, double s, Matrix G, Matrix P, int n);
 
 #endif

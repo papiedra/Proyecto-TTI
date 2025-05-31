@@ -46,21 +46,20 @@ int main() {
     double Mjd2 = Obs(9,1);
     double Mjd3 = Obs(18,1);
 
-    auto [r2,v2] = anglesg(Obs(1,2),Obs(9,2),Obs(18,2),Obs(1,3),Obs(9,3),Obs(18,3),
-                  Mjd1,Mjd2,Mjd3,Rs,Rs,Rs);
+    //auto [r2,v2] = anglesg(Obs(1,2),Obs(9,2),Obs(18,2),Obs(1,3),Obs(9,3),Obs(18,3),
+                  //Mjd1,Mjd2,Mjd3,Rs,Rs,Rs);
 
-   //  Matrix r2(3, 1);
-   //  r2(1,1)=6221397.62857869;
-   //  r2(2,1)=2867713.77965738;
-   //  r2(3,1)=3006155.98509949;
-    // Matrix v2(3,1);
-   //  v2(1,1)=4645.04725161806;
-    // v2(2,1)=-2752.21591588204;
-    // v2(3,1)=-7507.99940987031;
+     Matrix r2(3, 1);
+     r2(1,1)=6221397.62857869;
+     r2(2,1)=2867713.77965738;
+     r2(3,1)=3006155.98509949;
+     Matrix v2(3,1);
+     v2(1,1)=4645.04725161806;
+     v2(2,1)=-2752.21591588204;
+     v2(3,1)=-7507.99940987031;
     // Comentario auxiliar para cuando no tenía implementada la iteración extra.
-
+     
     Matrix Y0_apr = transpose(union_vector(transpose(r2), transpose(v2)));
-
     double Mjd0 = Mjday(1995,1,29,02,38,0);
 
     double Mjd_UTC = Obs(9,1);
@@ -71,7 +70,6 @@ int main() {
     
     Matrix Y = transpose(DEInteg(Accel,0,-(Obs(9,1)-Mjd0)*86400.0,1e-13,1e-6,6,Y0_apr));   
     Matrix P = zeros(6, 6);
-    
     for (int i=1; i <= 3; i++) {
         P(i,i)=1e8;
     }
@@ -83,9 +81,9 @@ int main() {
     Matrix yPhi = zeros(42,1);
     Matrix Phi  = zeros(6, 6);
 
-
+      
     t = 0;
-
+  
     for (int i=1; i <= nObs; i++) {    
 
         t_old = t;
@@ -141,14 +139,17 @@ int main() {
         if (Y.n_row==1) {
             Y=transpose(Y);
         }
-        Matrix aux2=Obs(i,2);
-        tie(K, Y, P) = MeasUpdate ( Y, aux2, Azim, sigma_az, dAdY, P, 6 );
+        tie(K, Y, P) = MeasUpdate ( Y, Obs(i,2), Azim, sigma_az, dAdY, P, 6 );
 
     
         r = transpose(extract_vector(transpose(Y),1, 3)); 
         s = LT*(U*r-Rs);                            
-		tie(Azim, Elev, dAds, dEds) = AzElPa(s);     
-        dEdY = union_vector(dEds*LT*U, zeros(1,3));
+        std::tuple<double, double, Matrix, Matrix> result1 = AzElPa(s);
+        Azim=std::get<0>(result1);
+        Elev=std::get<1>(result1);
+        Matrix dAds1=std::get<2>(result1);
+        Matrix dEds1=std::get<3>(result1);       
+        dEdY = union_vector(dEds1*LT*U, zeros(1,3));
     
         tie(K, Y, P) = MeasUpdate ( Y, Obs(i,3), Elev, sigma_el, dEdY, P, 6 );
      

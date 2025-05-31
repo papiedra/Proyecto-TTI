@@ -1,14 +1,16 @@
 #include "..\include\MeasUpdate.hpp"
 
-std::tuple<Matrix, Matrix, Matrix> MeasUpdate(Matrix& x,Matrix& z,Matrix& g,Matrix& s,Matrix& G,Matrix& P,double n){
-    int m=z.n_column;
-    Matrix Inv_W=zeros(m,m);
-    for (int i=1;i<=m;i++){
-        Inv_W(i,i) = s(i)*s(i);    
-    }
-    Matrix K=P*transpose(G)*inv(Inv_W+(G*P*transpose(G)));
-    Matrix x1=x+transpose(K*transpose(z-g));
-    Matrix aux=z-g;
-    P=(eye(n)-K*G)*P;
-    return std::make_tuple(K,x1,P);
+tuple<Matrix&, Matrix&, Matrix&> MeasUpdate(Matrix x, double z, double g, double s, Matrix G, Matrix P, int n) {
+	
+    double m = 1;
+    Matrix Inv_W = zeros(m,m);
+    Inv_W(1,1) = s*s;    
+    Matrix& K = P*transpose(G)*inv(Inv_W+G*P*transpose(G));
+	if(x.n_row==1){
+		x=transpose(x);
+	}
+    Matrix& x2 = x + K*(z-g);
+    Matrix& P2 = (eye(n)-K*G)*P;
+
+    return tie(K, x2, P2);
 }
